@@ -1,0 +1,116 @@
+nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
+    position: fixed;
+    min-height: 700px;
+    width: 110px;
+    top: 74px;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li.dropdown > a:focus {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 110px;
+}
+
+.navbar-default .navbar-nav > li > a i {
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+.pad-left {
+    padding-left: 60px;
+}
+
+.footer {
+    padding: 0 0px 18px 50px;
+}
+
+.footer-icon {
+    font-size: 18px;
+}
+
+.header-icon {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.pull-right.footer-icon i,
+.pull-right.header-icon i {
+    padding-left: 15px;
+}
+
+.pull-right.footer-icon a:hover {
+    color: #fff;
+}
+
+section.header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: #3C3E47;
+}
+
+.row.sticky.header {
+    padding: 20px 0px;
+}
+
+.row.sticky.header a {
+    color: #BBB;
+}
+
+.row.sticky.header a h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+section#portfolio {
+    padding-bottom: 50px;
+}
+
+.about-cont p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
+        position: fixed;
+        min-height: auto;
+        width: 100%;
+        top: 74px;
+    }
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav > li.dropdown > a:focus {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+    }
+    .navbar-default .navbar-nav > li > a i {
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+    media="screen" [class^="flaticon-"]:before,
+    [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after,
+    [class*=" flaticon-"]:after {
+        font-size: 25px;
+    }
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav > li.dropdown > a:focus {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .pad-left {
+        padding-left: 0px;
+    }
+    .col-md-4.mid-made {
+        text-align: center;
+    }
+    h1,
+    .h1 {
+        font-size: 36px;
+    }
+}
