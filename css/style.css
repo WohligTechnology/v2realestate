@@ -19,7 +19,7 @@ nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 }
 
 .pad-left {
-    padding-left: 60px;
+    padding-left: 100px;
 }
 
 .footer {
@@ -68,11 +68,6 @@ section#portfolio {
     padding-bottom: 50px;
 }
 
-.about-cont p {
-    text-align: justify;
-    font-size: 15px;
-}
-
 @media screen and (max-width: 767px) {
     nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
         position: fixed;
@@ -113,4 +108,17 @@ section#portfolio {
     .h1 {
         font-size: 36px;
     }
+}
+
+span.bold {
+    font-weight: bolder;
+}
+
+.abt-main-cont {
+    margin-bottom: 30px;
+}
+
+.about-cont p {
+    text-align: justify;
+    font-size: 15px;
 }
