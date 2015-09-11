@@ -62,6 +62,7 @@ section.header {
 .row.sticky.header a h1 {
     margin: 0;
     font-size: 26px;
+    color: #d4ae70;
 }
 
 section#portfolio {
@@ -121,4 +122,21 @@ span.bold {
 .about-cont p {
     text-align: justify;
     font-size: 15px;
+}
+
+.caption .super-large-caption {
+    text-transform: uppercase;
+}
+
+.row.sticky.header a h1 {
+    text-transform: uppercase;
+}
+
+.logo {
+    height: auto;
+    width: 90px;
+}
+
+.text-upper {
+    text-transform: uppercase;
 }
