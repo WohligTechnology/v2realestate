@@ -59,7 +59,7 @@ z-index: 1;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li.active > a:hover {
-color: #FFF !important;
+color: #D4AE70 !important;
 background-color: #3c3e47;
 }
 .navbar-default .navbar-nav > li.active > a:focus {

@@ -95,6 +95,6 @@ font-size: 18px;
 /* CAPTIONS SCREENSIZE LESS THAN 768px */
 @media (max-width: 768px) {
 #slides .caption .super-large-caption {
-font-size: 40px;
+font-size: 30px;
 }
 }

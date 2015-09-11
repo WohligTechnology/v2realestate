@@ -1,142 +1,178 @@
 nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
-    position: fixed;
-    min-height: 700px;
-    width: 110px;
-    top: 74px;
+	width: 110px;
+	min-height: 800px;
+	padding: 5% 0 0 0;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
 }
 
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li.dropdown > a:focus {
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 110px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 110px;
 }
 
 .navbar-default .navbar-nav > li > a i {
-    font-size: 30px;
-    padding-bottom: 12px;
+	font-size: 30px;
+	padding-bottom: 12px;
 }
 
 .pad-left {
-    padding-left: 100px;
+	padding-left: 100px;
 }
 
 .footer {
-    padding: 0 0px 18px 50px;
+	padding: 0 0px 18px 50px;
+}
+
+.color-white::before {
+	content: " ";
+	background: url('../img/logo.png') no-repeat;
+	width: 90px;
+	display: inline-block;
 }
 
 .footer-icon {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 .header-icon {
-    font-size: 18px;
-    padding-top: 5px;
+	font-size: 18px;
+	padding-top: 5px;
 }
 
 .pull-right.footer-icon i,
 .pull-right.header-icon i {
-    padding-left: 15px;
+	padding-left: 15px;
 }
 
 .pull-right.footer-icon a:hover {
-    color: #fff;
+	color: #fff;
 }
 
 section.header {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    background-color: #3C3E47;
+	width: 100%;
+	position: fixed;
+	z-index: 9998;
+	background-color: #fff;
+	-webkit-box-shadow: 1px 2px 9px 1px #000;
+	box-shadow: 1px 2px 9px 1px #9A9898;
 }
 
 .row.sticky.header {
-    padding: 20px 0px;
+	padding: 20px 0px;
 }
 
 .row.sticky.header a {
-    color: #BBB;
+	color: #BBB;
+}
+
+.row.sticky.header a:hover {
+	color: #d4ae70;
+	-webkit-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
 }
 
 .row.sticky.header a h1 {
-    margin: 0;
-    font-size: 26px;
-    color: #d4ae70;
+	margin: 0;
+	font-size: 26px;
+	color: #d4ae70;
 }
 
 section#portfolio {
-    padding-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 990px) and (min-width:767px) {
+	.two {
+		font-size: 73px !important;
+	}
 }
 
 @media screen and (max-width: 767px) {
-    nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
-        position: fixed;
-        min-height: auto;
-        width: 100%;
-        top: 74px;
-    }
-    .navbar-default .navbar-nav > li > a,
-    .navbar-default .navbar-nav > li > a:focus,
-    .navbar-default .navbar-nav > li.dropdown > a:focus {
-        padding-right: 15px;
-        padding-left: 15px;
-        width: 100%;
-    }
-    .navbar-default .navbar-nav > li > a i {
-        font-size: 25px;
-        padding-bottom: 12px;
-    }
-    media="screen" [class^="flaticon-"]:before,
-    [class*=" flaticon-"]:before,
-    [class^="flaticon-"]:after,
-    [class*=" flaticon-"]:after {
-        font-size: 25px;
-    }
-    .navbar-default .navbar-nav > li > a,
-    .navbar-default .navbar-nav > li > a:focus,
-    .navbar-default .navbar-nav > li.dropdown > a:focus {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .pad-left {
-        padding-left: 0px;
-    }
-    .col-md-4.mid-made {
-        text-align: center;
-    }
-    h1,
-    .h1 {
-        font-size: 36px;
-    }
+	.row.sticky.header a h1 {
+		margin: 0 !important;
+	}
+	.color-white > .two {
+		font-size: 38px;
+	}
+	nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
+		position: fixed;
+		min-height: auto;
+		width: 100%;
+		top: 74px;
+		padding: 0;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > li.dropdown > a:focus {
+		padding-right: 15px;
+		padding-left: 15px;
+		width: 100%;
+	}
+	.navbar-default .navbar-nav > li > a i {
+		font-size: 25px;
+		padding-bottom: 12px;
+	}
+	media="screen" [class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+		font-size: 25px;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > li.dropdown > a:focus {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.pad-left {
+		padding-left: 0px;
+	}
+	.col-md-4.mid-made {
+		text-align: center;
+	}
+	h1,
+	.h1 {
+		font-size: 36px;
+	}
 }
 
 span.bold {
-    font-weight: bolder;
+	font-weight: bolder;
 }
 
 .abt-main-cont {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .about-cont p {
-    text-align: justify;
-    font-size: 15px;
+	text-align: justify;
+	font-size: 15px;
 }
 
 .caption .super-large-caption {
-    text-transform: uppercase;
+	text-transform: uppercase;
+}
+
+.two {
+	font-size: 124px;
 }
 
 .row.sticky.header a h1 {
-    text-transform: uppercase;
+	margin-left: 65px;
+	text-transform: uppercase;
 }
 
 .logo {
-    height: auto;
-    width: 90px;
+	height: auto;
+	width: 90px;
 }
 
 .text-upper {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
