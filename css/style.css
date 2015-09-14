@@ -1,6 +1,6 @@
 nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 	width: 110px;
-	min-height: 800px;
+	min-height: 955px;
 	padding: 5% 0 0 0;
 	position: fixed;
 	top: 0;
@@ -204,8 +204,8 @@ section#portfolio {
 		width: 80%;
 		margin: 0 auto;
 	}
-	.footer .copy {
-		margin: 10%;
+	.footer-icon {
+		float: inherit !important;
 	}
 }
 
