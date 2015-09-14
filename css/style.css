@@ -134,7 +134,7 @@ section#portfolio {
 		clear: both;
 	}
 	.two {
-		font-size: 73px !important;
+		font-size: 38px !important;
 	}
 	.row.sticky.header a h1 {
 		font-size: 22px;
@@ -147,7 +147,7 @@ section#portfolio {
 	}
 	.social-icons {
 		padding: 10px 0 !important;
-		border-bottom: 1px solid #bbb; 
+		border-bottom: 1px solid #bbb;
 		text-align: center;
 	}
 	.social-icons > a > i {
@@ -174,9 +174,24 @@ section#portfolio {
 	.wdy {
 		width: 90%;
 	}
+	.about-cont {
+		width: 80%;
+		margin: 0 auto;
+	}
 	.portfolio-hover-buttons a {
 		padding: 8px 5px;
 		font-size: 10px;
+	}
+	.pdn > form {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.pdn > .map-wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.footer .copy {
+		margin: 10%;
 	}
 }
 
@@ -191,6 +206,9 @@ section#portfolio {
 	}
 	.wdy {
 		width: 100%;
+	}
+	.clear {
+		clear: both;
 	}
 	nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 		position: fixed;
@@ -213,7 +231,6 @@ section#portfolio {
 	.abtul {
 		text-align: center;
 	}
-	
 	.social-icons {
 		padding: 10px 0 !important;
 		border-bottom: 1px solid #bbb;
@@ -224,7 +241,9 @@ section#portfolio {
 	.navbar .social-icons a:first-child i {
 		margin-left: 0;
 	}
-
+	.footer {
+		padding: 0;
+	}
 	/*	toggle*/
 	.hamburger {
 		background-color: #3C3E47 !important;
