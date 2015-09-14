@@ -38,7 +38,7 @@ a.btn-outline.btn-white:hover, a.btn-outline.btn-white.active, a.btn-outline.btn
 color: #f56363;
 }
 a:active, a:hover {
-color: #f56363;
+color: #D4AE70;
 }
 .color-primary {
 color: #f56363 !important;
@@ -50,10 +50,10 @@ background-color: #f56363 !important;
 border-color: #f56363 !important;
 }
 .blog-img-hover .hover-full i {
-	color: #f56363;
+	color: #D4AE70;
 }
 .blog-img-hover .hover-full i:hover {
-background-color: #f56363;
+background-color: #D4AE70;
 }
 .blog-img-hover .hover-left i {
 	color: #f56363;
@@ -74,7 +74,7 @@ background-color: #f56363;
 color: #f56363;
 }
 .scrollup i:hover {
-background-color: #f56363;
+background-color: #D4AE70;
 }
 .social-icons i:hover {
 color: #f56363;
@@ -109,5 +109,5 @@ border-color: #f56363;
 background-color: #f56363;
 }
 .footer a:active, .footer a:hover {
-color: #f56363;
+color: #D4AE70;
 }
