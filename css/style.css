@@ -20,6 +20,14 @@ nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 	padding-bottom: 12px;
 }
 
+.logo2 {
+	font-size: 27px;
+}
+
+.logoap {
+	font-size: 31px;
+}
+
 .pad-left {
 	padding-left: 100px;
 }
@@ -136,6 +144,9 @@ section#portfolio {
 	.two {
 		font-size: 38px !important;
 	}
+	.logoap {
+		font-size: 27px;
+	}
 	.row.sticky.header a h1 {
 		font-size: 22px;
 	}
@@ -155,6 +166,9 @@ section#portfolio {
 	}
 	.navbar .social-icons a:first-child i {
 		margin-left: 0;
+	}
+	.navbar-collapse.in {
+		overflow-y: inherit;
 	}
 }
 
@@ -196,6 +210,12 @@ section#portfolio {
 }
 
 @media screen and (max-width: 767px) {
+	.logo2 {
+		font-size: 22px;
+	}
+	.logoap {
+		font-size: 24px;
+	}
 	.row.sticky.header a h1 {
 		margin: 3px 0 0 0;
 		font-size: 18px;
@@ -296,7 +316,7 @@ span.bold {
 
 .logo {
 	height: auto;
-	width: 90px;
+	width: 80px;
 }
 
 .text-upper {
@@ -304,6 +324,12 @@ span.bold {
 }
 
 @media screen and ( max-width:520px) {
+	.logo2 {
+		font-size: 19px;
+	}
+	.logoap {
+		font-size: 19px;
+	}
 	.row.sticky.header a h1 {
 		margin: 0;
 		font-size: 15px;
