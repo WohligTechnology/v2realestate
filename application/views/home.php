@@ -1,116 +1,10 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en-US">
-<!--<![endif]-->
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>v2RealEstate</title>
-
-	<!-- ================================ -->
-	<!-- ========== CSS INCLUDES ========== -->
-	<!-- ================================ -->
-	<link rel="icon" href="img/favicon.png" type="img/png">
-	<link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/buttons.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/font-awesome.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/icomoon.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/parallax-slider.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css">
-	<link id="header-switch" href="css/headers/dark.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/animate.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/astonish.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/flaticon.css" rel="stylesheet" media="screen" type="text/css">
-	<!--    <link id="style-switch" href="css/color-schemes/default.css" media="screen" rel="stylesheet" type="text/css">-->
-	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
-</head>
-
 <body data-offset="62" data-spy="scroll" data-target=".navbar" onload="initialize()">
 	<!-- ===== PAGE LOADER GRAPHIC ===== -->
 	<div id="pageloader">
 		<div class="loader-img">
-			<img alt="loader" src="img/loader.gif" /> </div>
+			<img alt="loader" src="<?php echo base_url('assets/img/loader.gif');?>" /> </div>
 	</div>
 
-	<!-- ======================================== -->
-	<!-- ============ START TOP STICKY MENU ========== -->
-	<!-- ======================================== -->
-	<nav class="navbar navbar-default navbar-fixed-top nav-fadein" role="navigation">
-		<div class="">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
-					<i class="fa fa-bars fa-fw"></i>
-				</button>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="main-menu">
-				<ul class="nav navbar-nav">
-					<li>
-						<a class="scrollto text-center" href="#homes">
-							<i class="flaticon-home4"></i>
-							<br>
-							<br> Home
-						</a>
-					</li>
-					<li>
-						<a class="scrollto text-center" href="#about">
-							<i class="flaticon-info31"></i>
-							<br>
-							<br> About
-						</a>
-					</li>
-					<li>
-						<a class="scrollto text-center" href="#portfolio">
-							<i class="fa fa-building-o"></i>
-							<br>
-							<br> Projects
-						</a>
-					</li>
-					<li>
-						<a class="scrollto text-center" href="#contact">
-							<i class="flaticon-telephone34"></i>
-							<br>
-							<br> Contact
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	<section class="header nav-fadein">
-		<div class="container">
-			<div class="row sticky header">
-				<div class="col-xs-6">
-					<a href="">
-						<h1><img src="img/logo.png" class="logo"> v<span class="logo2">2</span>realestate</h1>
-					</a>
-				</div>
-				<div class="col-xs-6">
-					<div class="pull-right header-icon">
-						<a href=""> <i class="fa fa-twitter"></i>
-						</a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-google-plus"></i></a>
-						<a href=""><i class="fa fa-instagram"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<!-- ======================================== -->
-	<!-- ============ END TOP STICKY MENU =========== -->
-	<!-- ======================================== -->
 	<section id="homes">
 		<!-- ======================================= -->
 		<!-- ========== START PARALLAX SLIDER ========== -->
@@ -120,7 +14,7 @@
 
 		<div id="slides">
 			<div class="slides-container">
-				<div class="parallax img-overlay3" style="background-image:url(img/slider/skyscrapers.jpg)" data-stellar-background-ratio="0.2">
+				<div class="parallax img-overlay3" style="background-image:url(<?php echo base_url('assets/img/slider/skyscrapers.jpg');?>)" data-stellar-background-ratio="0.2">
 					<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.3);"></div>
 					<div class="caption text-center">
 						<div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>
@@ -129,7 +23,7 @@
 						<a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa-chevron-down" style="font-size: 16px"></i></a>
 					</div>
 				</div>
-				<div class="parallax img-overlay3" style="background-image:url(img/slider/skyscrapers.jpg)" data-stellar-background-ratio="0.2">
+				<div class="parallax img-overlay3" style="background-image:url(<?php echo base_url('assets/img/slider/skyscrapers.jpg');?>)" data-stellar-background-ratio="0.2">
 					<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.3);"></div>
 					<div class="caption">
 						<div class="color-white weight-800 uppercase text-center extra-large-caption " style="margin-top: -200px">Real Estate</div>
@@ -177,14 +71,14 @@
 							<p>V2 Real Estate is renowned for strong solution-centric project execution, skills through an in-house project management team and strategic tie-ups / associations with domestic / International contractors, architects, engineers, legal firms and brand partners. V2 Real Estate is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate is also having strategic partnership with India’s leading Logistic Company. </p>
 						</div>
 						<div class="pull-right">
-							<a href="about-us.html">
+							<a href="<?php echo site_url('site/aboutus') ?>">
                                 read-more
                             </a>
 						</div>
 					</div>
 					<div class="col-md-4 pdn clear">
 						<figure class="text-center">
-							<img src="img/pictures/about_us.jpg">
+							<img src="<?php echo base_url('assets/img/pictures/about_us.jpg');?>">
 						</figure>
 					</div>
 				</div>
@@ -220,100 +114,100 @@
 					<div class="col-sm-3 central-warehouse pdn">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-buttons">
-								<a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/CWC.jpg" title=""><i class="im-expand2"></i></a>
+								<a href="<?php echo site_url('site/project') ?>" on-click="">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/CWC.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/CWC.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 period-offices ">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/periodoffice.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/periodoffice.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/bareshell.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/bareshell.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 central-warehouse">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/warehouse.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/warehouse.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/warehouse.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/warehouse.jpg');?>');">
 						</div>
 					</div>
 
 					<div class="col-sm-3 banking-sol">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/28bank.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/28bank.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/28bank.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/28bank.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/bareshell.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/bareshell.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 period-offices">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/periodoffice.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/periodoffice.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 banking-sol">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/28bank.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/28bank.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/28bank.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/28bank.jpg');?>');">
 						</div>
 					</div>
 
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/bareshell.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/bareshell.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 banking-sol">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/28bank.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/28bank.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/28bank.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/28bank.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 period-offices">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/periodoffice.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/periodoffice.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="project.html" target="_blank">View Project</a><a data-pp="prettyPhoto[portfolio]" href="img/pictures/bareshell.jpg" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('img/pictures/bareshell.jpg');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
 						</div>
 					</div>
 				</div>
@@ -332,7 +226,7 @@
 	<!-- ======================================== -->
 	<section id="contact" class="pad-left">
 		<div class="fullwidth-section">
-			<div class="parallax img-overlay4" style="background-image: url('img/slider/newyork.jpg')" data-stellar-background-ratio="0.3"></div>
+			<div class="parallax img-overlay4" style="background-image: url('img/slider/newyork.jpg');?>')" data-stellar-background-ratio="0.3"></div>
 			<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.7);"></div>
 			<div class="container">
 				<div class="row" style="margin-bottom: 20px;">
@@ -429,33 +323,7 @@
 	<!-- =========== END CONTACT SECTION ============= -->
 	<!-- ======================================== -->
 
-	<!-- ======================================== -->
-	<!-- ============== START FOOTER ============== -->
-	<!-- ======================================== -->
-	<div class="footer">
-		<div class="container">
-			<div class="row" style="margin-top: 20px">
-				<div class="col-md-6 col-sm-8">
-					<div class="copy">
-						Copyright © 2015 <a href="#">v2realestate</a> All right are reserved
-					</div>
-				</div>
-
-				<div class="col-md-6 col-sm-4">
-					<div class="pull-right footer-icon">
-						<a href=""> <i class="fa fa-twitter"></i>
-						</a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-google-plus"></i></a>
-						<a href=""><i class="fa fa-instagram"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- ======================================== -->
-	<!-- =============== END FOOTER ============== -->
-	<!-- ======================================== -->
+	
 
 	<!-- ================================================== -->
 	<!-- ============= START SCROLL TO TOP SCRIPT ============= -->
@@ -470,23 +338,7 @@
 	<!-- ===================================== -->
 	<!-- ========== START JQUERY SCRIPTS ========== -->
 	<!-- ===================================== -->
-	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/stellar.js"></script>
-	<script type="text/javascript" src="js/counter.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-	<script type="text/javascript" src="js/jquery.nicescroll.plus.js"></script>
-	<script type="text/javascript" src="js/jquery.superslides.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/animation-engine.js"></script>
-	<script type="text/javascript" src="js/validation.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="js/google.map-settings.js"></script>
-	<script type="text/javascript" src="js/style-switcher.js"></script>
-	<script type="text/javascript" src="js/astonish.js"></script>
+	
 	<!-- ==================================== -->
 	<!-- ========== END JQUERY SCRIPTS ========== -->
 	<!-- ==================================== -->
