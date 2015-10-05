@@ -226,7 +226,7 @@
 	<!-- ======================================== -->
 	<section id="contact" class="pad-left">
 		<div class="fullwidth-section">
-			<div class="parallax img-overlay4" style="background-image: url('img/slider/newyork.jpg');?>')" data-stellar-background-ratio="0.3"></div>
+<!--			<div class="parallax img-overlay4" style="background-image: url('img/slider/newyork.jpg');?>')" data-stellar-background-ratio="0.3"></div>-->
 			<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.7);"></div>
 			<div class="container">
 				<div class="row" style="margin-bottom: 20px;">
