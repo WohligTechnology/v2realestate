@@ -18,7 +18,7 @@
 					<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.3);"></div>
 					<div class="caption text-center">
 						<div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>
-						<div class="color-white text-center weight-800 super-large-caption vlogo">v<span class="two">2</span>RealEstate</div>
+						<div class="color-white text-center weight-800 super-large-caption vlogo">v<span class="two">II</span>RealEstate</div>
 						<h4 class="color-white text-center weight-600 uppercase " style="margin-top: 60px; letter-spacing: 1px;">Find out all about us</h4>
 						<a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa-chevron-down" style="font-size: 16px"></i></a>
 					</div>
@@ -78,7 +78,7 @@
 					</div>
 					<div class="col-md-4 pdn clear">
 						<figure class="text-center">
-							<img src="<?php echo base_url('assets/img/pictures/about_us.jpg');?>">
+							<img src="<?php echo base_url('assets/img/standalone_building/ML Towers Day.JPG');?>">
 						</figure>
 					</div>
 				</div>
@@ -122,18 +122,18 @@
 					</div>
 					<div class="col-sm-3 period-offices ">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (8).JPG');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (8).JPG');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/image (1).jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/image (1).jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 central-warehouse">
@@ -155,18 +155,18 @@
 					</div>
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/image (3).jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/image (3).jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 period-offices">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (11).JPG');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (11).JPG');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 banking-sol">
@@ -180,10 +180,10 @@
 
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/image (4).jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/image (4).jpg');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 banking-sol">
@@ -196,18 +196,98 @@
 					</div>
 					<div class="col-sm-3 period-offices">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (24).JPG');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/periodoffice.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (24).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (25).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (25).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (27).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (27).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (16).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (16).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (15).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (15).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (4).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (4).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (6).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (6).JPG');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 period-offices">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/arcadia/Image (1).JPG');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/arcadia/Image (1).JPG');?>');">
 						</div>
 					</div>
 					<div class="col-sm-3 bare-shell">
 						<div class="portfolio-hover">
-							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bareshell.jpg');?>" title=""><i class="im-expand2"></i></a>
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/image (5).jpg');?>" title=""><i class="im-expand2"></i></a>
 							</div>
 						</div>
-						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bareshell.jpg');?>');">
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/image (5).jpg');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 bare-shell">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/image (6).jpg');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/image (6).jpg');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 bare-shell">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/image (7).jpg');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/image (7).jpg');?>');">
+						</div>
+					</div>
+					<div class="col-sm-3 bare-shell">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/bare_shell/tailor_made/IMG-20150807-WA0004.jpg');?>" title=""><i class="im-expand2"></i></a>
+							</div>
+						</div>
+						<div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/bare_shell/tailor_made/IMG-20150807-WA0004.jpg');?>');">
 						</div>
 					</div>
 				</div>

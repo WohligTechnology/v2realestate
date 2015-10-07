@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>v2RealEstate</title>
+    <title>vIIRealEstate</title>
 
     <!-- ================================ -->
     <!-- ========== CSS INCLUDES ========== -->
@@ -91,7 +91,7 @@
             <div class="row sticky header">
                 <div class="col-xs-6">
                     <a href="">
-                        <h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo"> v<span class="logo2">2</span>realestate</h1>
+                        <h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo"> v<span class="logo2">II</span>realestate</h1>
                     </a>
                 </div>
                 <div class="col-xs-6">

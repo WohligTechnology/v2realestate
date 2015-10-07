@@ -21,17 +21,17 @@ class Site extends CI_Controller {
 	{
         
         $data["content"]="home";
-        $data["header"]="header1";
+        $data["header"]="home_header";
 		$this->load->view('template',$data);
 	}
     public function project(){
      $data["content"]="project";
-        $data["header"]="header2";
+        $data["header"]="project_header";
 		$this->load->view('template',$data);
     }
     public function aboutus(){
      $data["content"]="aboutus";
-        $data["header"]="header3";
+        $data["header"]="aboutus_header";
 		$this->load->view('template',$data);
     }
 }

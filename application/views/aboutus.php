@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <figure>
-                        <img src="<?php echo base_url('assets/img/pictures/about_us.jpg');?>">
+                        <img src="<?php echo base_url('assets/img/standalone_building/ML Towers Day.JPG');?>">
                     </figure>
                 </div>
             </div>
