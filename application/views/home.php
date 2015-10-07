@@ -60,8 +60,9 @@
 					</div>
 				</div>
 				<!-- ========== START ICON FEATURES BOX ========== -->
+				<div class="abt-width">
 				<div class="row">
-					<div class="col-md-8 pdn">
+					<div class="col-md-8">
 						<div class="about-cont">
 							<p>
 								V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian & foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
@@ -76,11 +77,12 @@
                             </a>
 						</div>
 					</div>
-					<div class="col-md-4 pdn clear">
+					<div class="col-md-4 clear">
 						<figure class="text-center">
 							<img src="<?php echo base_url('assets/img/standalone_building/ML Towers Day.JPG');?>">
 						</figure>
 					</div>
+				</div>
 				</div>
 			</div>
 			<!-- END ICON FEATURES BOX -->
