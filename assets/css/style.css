@@ -102,6 +102,11 @@ section#portfolio {
 
 /*about*/
 
+.abt-width {
+	width: 85%;
+	margin: 0 auto; 
+}
+
 .navg {
 	background-color: #fff !important;
 	-webkit-box-shadow: 1px 2px 9px 1px #9A9898;
@@ -137,7 +142,16 @@ section#portfolio {
 	transition: all .6s ease-in-out;
 }
 
+@media screen and (max-width: 1200px) and (min-width:990px) {
+	.pad-left {
+		padding-left: 70px;
+	}
+}
+
 @media screen and (max-width: 990px) and (min-width:767px) {
+	.pad-left {
+		padding-left: 50px;
+	}
 	.clear {
 		clear: both;
 	}
@@ -180,7 +194,7 @@ section#portfolio {
 		text-align: center;
 	}
 	.mid-made {
-	text-align: center;	
+		text-align: center;
 	}
 	.row.sticky.header a h1 {
 		text-align: right;
