@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about"  class="nofootmg">
     <div class="fullwidth-section" style="background-color: #fff">
         <div class="container">
             <div class="row" style="margin-bottom: 60px;">

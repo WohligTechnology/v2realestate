@@ -1,8 +1,8 @@
-<div class="footer">
+<div class="footer page">
 		<div class="container">
 			<div class="row" style="margin-top: 20px">
 				<div class="col-md-6 col-sm-8">
-					<div class="copy">
+					<div class="copy nomg">
 						Copyright © 2015 <a href="#">v2realestate</a> All right are reserved
 					</div>
 				</div>

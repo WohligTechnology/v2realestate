@@ -1,4 +1,4 @@
-<div class="fullwidth-section" id="blog-fullwidth" style="padding-top: 0">
+<div class="fullwidth-section nofootmg" id="blog-fullwidth" style="padding-top: 0">
         <!-- Blog Post -->
         <div class="row">
             <div class="col-md-12">
@@ -40,7 +40,7 @@
 
 
             <!-- Pagination -->
-            <div class="row">
+            <div class="row nofootmg">
                 <div class="col-md-12">
                     <ul class="pager">
                         <li class="previous"><a href="#"><i class="fa fa-angle-double-left"></i> Older</a></li>
