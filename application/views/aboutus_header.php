@@ -7,6 +7,7 @@
 	<!-- ================================ -->
 	<!-- ========== CSS INCLUDES ========== -->
 	<!-- ================================ -->
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="<?php echo base_url('assets/img/favicon.png" type="img/png');?>">
 	<link href="<?php echo base_url('assets/css/bootstrap.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/buttons.css');?>" media="screen" rel="stylesheet" type="text/css">
@@ -18,8 +19,8 @@
 	<link href="<?php echo base_url('assets/css/animate.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/astonish.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link id="style-switch" href="<?php echo base_url('assets/css/color-schemes/default.css');?>" media="screen" rel="stylesheet" type="text/css">
-	<link href="<?php echo base_url('assets/css/style.css');?>" media="screen" rel="stylesheet" type="text/css"
-	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-1.11.0.min.js');?>"></script>
+	<link href="<?php echo base_url('assets/css/style.css');?>" media="screen" rel="stylesheet" type="text/css" <script type="text/javascript" src="<?php echo base_url('assets/js/jquery-1.11.0.min.js');?>">
+	</script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.easing.1.3.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/stellar.js');?>"></script>
