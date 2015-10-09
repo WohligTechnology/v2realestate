@@ -156,6 +156,16 @@ section#portfolio {
 	margin: 0;
 }
 
+
+.logo-img > img {
+	max-width: 100% !important;
+	width: 300px !important;
+	height: auto !important;
+	display: block;
+	margin: 0 auto;
+	position: static !important;
+}
+
 @media screen and (max-width: 1200px) and (min-width:990px) {
 	.pad-left {
 		padding-left: 65px;
@@ -294,7 +304,7 @@ section#portfolio {
 	}
 	nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 		position: fixed;
-		min-height: auto;
+		min-height: 20px;
 		width: 100%;
 		top: 74px;
 		padding: 0;

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- The large image displayed below will always fill the screen and be 75% height. This is determine in the astonish.js file -->
-                <div class="img-thumb post-img-lg" style="background-image: url('<?php echo base_url('assets/img/pictures/warehouseinner.jpg');?>');">
+                <div class="img-thumb post-img-lg bg" style="background-image: url('<?php echo base_url('assets/img/pictures/warehouseinner.jpg');?>');">
                     <div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.1);"></div>
                     <a class="expand-img" data-pp="prettyPhoto[blog-gallery]" href="<?php echo base_url('assets/img/pictures/warehouseinner.jpg');?>" title="View the incredible mountains of Switzerland"><i class="im-expand2"></i></a>
                 </div>
