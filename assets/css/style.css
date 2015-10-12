@@ -26,6 +26,10 @@ nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 	font-weight: 600;
 }
 
+.col-act { 
+    color: #d4ae70 !important;
+}
+
 .logoap {
 	font-size: 31px;
 }

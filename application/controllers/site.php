@@ -18,8 +18,7 @@ class Site extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
-        
+	{ 
         $data["content"]="home";
         $data["header"]="home_header";
 		$this->load->view('template',$data);

@@ -56,7 +56,7 @@
 			<ul class="nav navbar-nav navbar-right abtul">
 				<li><a class="scrollto" href="<?php echo site_url('#home') ?>">Home</a></li> 
 				<li><a class="scrollto" href="<?php echo site_url('#about') ?>">About</a></li>
-				<li><a class="scrollto" href="<?php echo site_url('#portfolio') ?>">Projects</a></li>
+				<li><a class="scrollto col-act" href="<?php echo site_url('#portfolio') ?>">Projects</a></li>
 				</li>
 				<li><a class="scrollto" href="<?php echo site_url('#contact') ?>">Contact</a></li>
 				<li>
