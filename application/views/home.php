@@ -76,7 +76,7 @@
                                 <p>V2 Real Estate is renowned for strong solution-centric project execution, skills through an in-house project management team and strategic tie-ups / associations with domestic / International contractors, architects, engineers, legal firms and brand partners. V2 Real Estate is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate is also having strategic partnership with India’s leading Logistic Company. </p>
                             </div>
                             <div class="pull-right">
-                                <a href="<?php echo site_url('/site/aboutus') ?>">
+                                <a href="<?php echo site_url('/site/aboutus') ?>" class="weight-600">
                                 read-more >>
                             </a>
                             </div>
@@ -378,13 +378,13 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Tell us your name</label>
+                                            <label>Your Name</label>
                                             <input class="form-control" name="name" id="name" placeholder="" type="text" />
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>What&#39;s your email address?</label>
+                                            <label>Your Email</label>
                                             <input class="form-control" name="email" id="email" placeholder="" type="email" />
                                         </div>
                                     </div>
@@ -392,7 +392,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label>Give us the details</label>
+                                            <label>Comment</label>
                                             <textarea class="form-control" id="message" placeholder="" rows="8"></textarea>
                                         </div>
                                         <div class="text-center">
