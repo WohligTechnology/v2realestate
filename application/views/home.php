@@ -20,7 +20,7 @@
                     <div class="caption text-center">
                         <div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>
                         <div class="logo-img"><img src="<?php echo base_url('assets/img/logo.png');?>" alt="VIIREALESTATE"></div>
-                        <div class="color-white text-center weight-800 super-large-caption vlogo">v<span class="two">II</span>RealEstate</div>
+                        <div class=" text-center weight-800 super-large-caption vlogo">v<img src="<?php echo base_url('assets/img/two.png');?>" alt="VIIREALESTATE" class="two">RealEstate</div>
                         <h4 class="color-white text-center weight-600 uppercase " style="letter-spacing: 1px;">Find out all about us</h4>
                         <a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa-chevron-down" style="font-size: 16px"></i></a>
                     </div>

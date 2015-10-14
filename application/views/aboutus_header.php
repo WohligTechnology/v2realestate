@@ -21,6 +21,7 @@
 	<link id="style-switch" href="<?php echo base_url('assets/css/color-schemes/default.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/style.css');?>" media="screen" rel="stylesheet" type="text/css" <script type="text/javascript" src="<?php echo base_url('assets/js/jquery-1.11.0.min.js');?>">
 	</script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-1.11.0.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.easing.1.3.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/stellar.js');?>"></script>
@@ -46,7 +47,7 @@
 				<i class="fa fa-bars fa-fw"></i>
 			</button>
 			<a class="navbar-brand weight-900" href="<?php echo site_url('site') ?>">
-				<h1> <img id="logo" alt="" src="<?php echo base_url('assets/img/logo.png');?>" class="logo"> v<span class="logo2">II</span>realestate</h1></a>
+				<h1> <img id="logo" alt="" src="<?php echo base_url('assets/img/logo.png');?>" class="logo"> v<img src="<?php echo base_url('assets/img/two.png');?>" alt="VIIREALESTATE" class="logo2">realestate</h1></a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
