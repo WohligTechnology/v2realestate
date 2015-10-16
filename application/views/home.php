@@ -496,18 +496,26 @@
                     </div>
                     <div class="col-sm-3 banking-sol">
                         <div class="portfolio-hover">
-                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/28bank.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bank1.jpg');?>" title=""><i class="im-expand2"></i></a>
                             </div>
                         </div>
-                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/28bank.jpg');?>');">
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bank1.jpg');?>');">
                         </div>
                     </div>
                     <div class="col-sm-3 banking-sol">
                         <div class="portfolio-hover">
-                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/28bank.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bank2.jpg');?>" title=""><i class="im-expand2"></i></a>
                             </div>
                         </div>
-                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/28bank.jpg');?>');">
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bank2.jpg');?>');">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 banking-sol">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/pictures/bank3.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/bank3.jpg');?>');">
                         </div>
                     </div>
                 </div>
