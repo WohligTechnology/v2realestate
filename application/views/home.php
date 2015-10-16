@@ -20,7 +20,7 @@
                     <div class="caption text-center">
                         <div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>
                         <div class="logo-img"><img src="<?php echo base_url('assets/img/logo.png');?>" alt="VIIREALESTATE"></div>
-                        <div class=" text-center weight-800 super-large-caption vlogo">v<img src="<?php echo base_url('assets/img/two.png');?>" alt="VIIREALESTATE" class="two">RealEstate</div>
+                        <div class=" text-center weight-800 super-large-caption vlogo">v<span class="two">II</span>realestate</div>
                         <h4 class="color-white text-center weight-600 uppercase " style="letter-spacing: 1px;">Find out all about us</h4>
                         <a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa-chevron-down" style="font-size: 16px"></i></a>
                     </div>
@@ -132,6 +132,174 @@
                             </div>
                         </div>
                         <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/pictures/warehouse.jpg');?>');">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3002.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3002.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3003.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3003.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3004.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3004.jpg');?>');">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3005.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3005.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3006.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3006.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3007.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3007.jpg');?>');">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3008.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3008.jpg');?>');">
+                        </div>
+                    </div>
+                      <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3009.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3009.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3017.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3017.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3020.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3020.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3021.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3021.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3036.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3036.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3039.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3039.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3041.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3041.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_3260.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_3260.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_20150316_171808.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_20150316_171808.jpg');?>');">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_20150316_171815.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_20150316_171815.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_20150316_171826.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_20150316_171826.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_20150316_171833.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_20150316_171833.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_20150316_171838.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_20150316_171838.jpg');?>');">
+                        </div>
+                    </div>
+                     <div class="col-sm-3 central-warehouse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-buttons"><a href="<?php echo site_url('site/project') ?>">View Project</a><a data-pp="prettyPhoto[portfolio]" href="<?php echo base_url('assets/img/warehouse/IMG_20150316_172026.jpg');?>" title=""><i class="im-expand2"></i></a>
+                            </div>
+                        </div>
+                        <div class="img-thumb" style="background-image: url('<?php echo base_url('assets/img/warehouse/IMG_20150316_172026.jpg');?>');">
                         </div>
                     </div>
                     <div class="col-sm-3 bare-shell">

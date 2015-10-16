@@ -21,8 +21,10 @@ nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 }
 
 .logo2 {
-	width: 20px;
-	vertical-align: 0;
+	color: #231F9A;
+	font-family: 'pt-sans';
+	font-size: 28px;
+	font-weight: 600;
 }
 
 .col-act {
@@ -169,10 +171,9 @@ section#portfolio {
 }
 
 .two {
-	width: 60px !important;
-	height: auto !important;
-	position: static !important;
-	vertical-align: 0;
+	color: #231F9A;
+	font-family: "pt sans";
+    font-size: 83px;
 }
 
 .vlogo {
@@ -196,10 +197,11 @@ section#portfolio {
 		clear: both;
 	}
 	.logo2 {
-		width: 16px;
+		font-size: 24px;
+        font-weight: 500;
 	}
 	.two {
-		width: 37px !important;
+		font-size: 52px;
 	}
 	.logoap {
 		font-size: 27px;
@@ -281,7 +283,7 @@ section#portfolio {
 
 @media screen and (max-width: 767px) {
 	.logo2 {
-		width: 13px;
+		font-size: 20px;
 	}
 	.logoap {
 		font-size: 24px;
@@ -291,9 +293,8 @@ section#portfolio {
 		font-size: 18px;
 		text-align: left;
 	}
-	.color-white > .two {
-		width: 16px !important;
-		vertical-align: -1px;
+	.two {
+		font-size: 21px;
 	}
 	.wdy {
 		width: 100%;
@@ -405,7 +406,7 @@ span.bold {
 
 @media screen and ( max-width:520px) {
 	.logo2 {
-		width: 11px;
+		font-size: 16px;
 	}
 	.logoap {
 		font-size: 19px;
