@@ -7,7 +7,8 @@
 	<!-- ================================ -->
 	<!-- ========== CSS INCLUDES ========== -->
 	<!-- ================================ -->
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+<!--	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>-->
+	<link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="<?php echo base_url('assets/img/favicon.png');?>" type="img/png">
 	<link href="<?php echo base_url('assets/css/bootstrap.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/buttons.css');?>" media="screen" rel="stylesheet" type="text/css">
