@@ -32,7 +32,7 @@ class Site extends CI_Controller {
      $data["content"]="aboutus";
         $data["header"]="aboutus_header";
 		$this->load->view('template',$data);
-    }
+    }  
 }
 
 /* End of file welcome.php */

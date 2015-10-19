@@ -13,7 +13,7 @@
                 <div class="col-md-8">
                     <div class="about-cont">
                         <p>
-                            V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian & foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
+                            V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
 
                         <p>V2 Real Estate boasts of a country-wide real estate spread across many cities of India and spread across multiple projects catering to ultra-luxury and luxury commercial properties to its variety of clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses.</p>
 
@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="about-cont">
-                            <p>At V2 Real Estate Private Limited, we provide our clients Total Warehouse Project Solutions i.e. warehouse advisory, land procurement, architecture, construction, sourcing of warehouse equipment or storage system or service such as marketing & lease management. </p>
+                            <p>At V2 Real Estate Private Limited, we provide our clients Total Warehouse Project Solutions i.e. warehouse advisory, land procurement, architecture, construction, sourcing of warehouse equipment or storage system or service such as marketing &amp; lease management. </p>
                             <p>
                                 Our building materials, warehouse equipment and other required systems are sourced from reputed manufacturers so as to deliver complete solutions to our valued clients. </p>
                             <p>We take the entire responsibility of identifying, project completion and customized installations and thereby reduce the challenges faced by our clients in procuring the right warehouse property.</p>
