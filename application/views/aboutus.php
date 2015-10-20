@@ -1,4 +1,4 @@
-<section id="about"  class="nofootmg">
+<section id="about" class="nofootmg">
     <div class="fullwidth-section" style="background-color: #fff">
         <div class="container">
             <div class="row" style="margin-bottom: 60px;">
@@ -15,7 +15,7 @@
                         <p>
                             V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
 
-                        <p>V2 Real Estate Private Limited boasts of a country-wide real estate spread across many cities of India and spread across multiple projects catering to ultra-luxury and luxury commercial properties to its variety of clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses.</p>
+                        <p>V2 Real Estate Private Limited boasts of a country-wide real estate spread across many cities of India and spread across multiple projects catering to ultra-luxury and luxury commercial properties to its variety of clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian corporates, Banks(Indian &amp; foreign) &amp; Industrial houses.</p>
 
                         <p>V2 Real Estate Private Limited is renowned for strong solution-centric project execution, skills through an in-house project management team and strategic tie-ups / associations with domestic / International contractors, architects, engineers, legal firms and brand partners. V2 Real Estate Private Limited is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate Private Limited is also having strategic partnership with India’s leading Logistic Company. </p>
                     </div>
@@ -33,9 +33,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="about-cont">
-                            <p>At V2 Real Estate Private Limited, we provide our clients Total Warehouse Project Solutions i.e. warehouse advisory, land procurement, architecture, construction, sourcing of warehouse equipment or storage system or service such as marketing &amp; lease management. </p>
-                            <p>
-                                Our building materials, warehouse equipment and other required systems are sourced from reputed manufacturers so as to deliver complete solutions to our valued clients. </p>
+                            <p>At V2 Real Estate Private Limited, we provide Total Warehouse Project Solutions i.e. warehouse advisory, land procurement, architecture, construction, sourcing of warehouse equipment or storage system &amp; lease management. </p>
+                            <p>Our building materials, warehouse equipment and other required systems are sourced from reputed manufacturers so as to deliver a strong and well –constructed real estate to our valued clients</p>
                             <p>We take the entire responsibility of identifying, project completion and customized installations and thereby reduce the challenges faced by our clients in procuring the right warehouse property.</p>
                             <h5>
 A COMPLETE SOLUTION FOR ALL WAREHOUSING REQUIREMENTS AND SERVICES</h5>
@@ -50,26 +49,22 @@ A COMPLETE SOLUTION FOR ALL WAREHOUSING REQUIREMENTS AND SERVICES</h5>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="about-cont">
-                            <p>V2 Real Estate Private Limited has the experience in providing prime real estate on lease to some of the world's most respected corporate entities. We offer a complete range of Commercial Office Leases across Mumbai and various cities in India. </p>
-                            <p>
-                                V2 Real Estate Private Limited is involved in all of the following types of Office leasing </p>
-                            <p><span class="bold">SHELL: </span> A typical Un Furnished office (also referred to as "Bare Shell Premises") means a basic floor plate without any civil works or flooring of any nature. One has to design this from scratch and plan electrical cabling, flooring and in a few cases even positioning of toilet blocks and Air Handling Unit (AHU) rooms can be changed.</p>
+                            <p>V2 Real Estate Private Limited has experience in providing prime real estate on lease to some of the world's most respected corporate entities. We offer a complete range of Commercial Office Leases across Mumbai and various cities in India. </p>
+                            <p>V2 Real Estate Priavte Limited is involved in following types of Office leasing:</p>
+                            <p><span class="bold">SHELL: </span> A typical Un-Furnished office (also referred to as "Bare Shell Premises") means a basic floor plate without any civil works or flooring of any nature. The client is free to design such offices from scratch and plan electrical cabling, flooring, toilet blocks, furniture and Air Handling Unit (AHU) rooms.</p>
                             <p>
                                 <span class="bold">  WARM SHELL:</span> Warm Shell Office space is where V2 Real Estate Private Limited does the basic civil works of the premises such as Flooring, False Ceiling and Rest Rooms. In some cases Air Conditioning and Light Fittings are also provided.</p>
-                            <p>This is a solution that is reached when a Company can commit to a Lock-in period and needs a furnished premises. This way the Company's cost of furnishing is substantially reduced as well as the Interests of V2 Real Estate Private Limited are taken care of as the Lessee is not investing in something which would be obsolete after the Lessee has moved out of the premises.</p>
+                            <p>This is a solution that is reached when a Company can commit to a Lock-in period and needs a furnished premises. This way the Company's cost of furnishing is substantially reduced.</p>
                             <p>
-                                <p><span class="bold"> FULLY FURNISHED OFFICES:</span> Fully Furnished offices (also referred to as "Plug-N-Play Offices" or "Ready to Move in Offices"), as the name suggests, are ready to move-in offices, fully equipped for a Lessee to begin operations. Fully Furnished Offices are equipped with Flooring and Carpeting, False Ceiling, Light Fittings, Air Conditioning (Central or Splits), Reception Area, Conference Room(s), Executive Cabin(s), Workstations or Cubicles, LAN connectivity, WIFI ready, CCTV ready, Computerised Access System, Tables and Chairs as required, Pantry and Rest Rooms, etc.</p>
+                                <p><span class="bold"> FULLY FURNISHED OFFICES:</span> Fully Furnished offices (also referred to as "Plug-N-Play Offices" or "Ready to Move in Offices"), as the name suggests, are ready to move-in offices, fully equipped for a Lessee to begin operations. Fully Furnished Offices are equipped with Flooring and Carpeting, False Ceiling, Light Fittings, Air Conditioning (Central or Splits or AHUs), Reception Area, Conference Room(s), Executive Cabin(s), Workstations or Cubicles, LAN connectivity, WIFI ready, CCTV ready, Computerised Access System, Tables and Chairs as required, Pantry and Rest Rooms, etc.</p>
 
-                                <p><span class="bold">  1.) Ready Furnished Offices:</span> Generally these are offices which are sought after for an immediate start-up. Finding a Ready Furnished Office which exactly matches your requirement can be very gruesome task, thus, our clients rely on expertise of V2 Real Estate Private Limited.</p>
-                                <p> There are many advantages which these type of offices offer. First and most important being that one can virtually start their operations the next morning. Another factor is the cost as these type of offices are a bit cheaper taking into account the time lapse for furnishing the office is ZERO, in ready furnished offices. The only disadvantage is that there is less flexibility in terms of Layout of the Office and Lessee has to accept the colour &amp; style of furniture.</p>
+                                <p><span class="bold">  1.) Ready Furnished Offices:</span>  Generally these are offices which are sought after for an immediate start-up. Finding a Ready Furnished Office which exactly matches your requirement can be very gruesome task, thus, our clients rely on expertise of V2 Real Estate Private Limited. </p>
+                                <p>There are many advantages which these type of offices offer. First and foremost that one can virtually start its operations the very same day. Another factor is the cost, as these types of offices are a bit cheaper taking into account the time lapse for furnishing the office is ZERO, in ready furnished offices. The only disadvantage is that there is less flexibility in terms of Layout of the Office and Lessee has to accept the colour &amp; style of furniture. </p>
 
 
-                                <p><span class="bold">      2.) Tailor Made Offices: </span>These type of Offices are furnished from scratch by the V2 Real Estate Private Limited as per the Layouts and Design approved by the Lessee. Companies with specific requirements opt for these type of Offices. The cost of these Offices is a bit higher than the un-furnished office rates. It takes between 90 to 120 days for the premises to be in a ready to move in condition.
-                                </p>
-                                <p>
-                                    The advantage in these type of offices is that one can carefully plan the layout and design of the Office as per specific requirements of the Lessee. The choice of colour combinations of the office and furniture and quality of furniture can be decided by the Lessee Company.</p>
-                                <p>
-                                    The most important issue here is the Lock-in Period. A Lock-in Period is the time frame within which the Licensee cannot terminate the Agreement. A minimum of 60 months Lock-in has to be given. Therefore the scope of further expansion has to be considered while zeroing in on this type of Office.</p>
+                                <p><span class="bold">      2.) Tailor Made Offices: </span>These type of Offices are furnished from scratch by the V2 Real Estate Private Limited as per the Layouts and Design approved by the Lessee. Companies with specific requirements opt for these type of Offices. The cost of these Offices is a bit higher than the un-furnished office rates. It takes between 90 to 120 days for the premises to be in a ready to move-in condition. </p>
+                                <p>The advantage in these type of offices is that one can carefully plan the layout and design of the Office as per specific requirements of the Lessee. The choice of colour combinations of the office and furniture and quality of furniture can be decided by the Lessee Company.</p>
+                                <p>The most important issue here is the Lock-in Period. A Lock-in Period is the time frame within which the Licensee cannot terminate the Agreement. A minimum of 60 months Lock-in has to be given. Therefore the scope of further expansion has to be considered while zeroing in on this type of Office.</p>
                         </div>
                     </div>
                 </div>
