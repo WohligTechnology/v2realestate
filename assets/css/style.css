@@ -145,9 +145,10 @@ section#portfolio {
     color: #d4ae70;
     /*	font-family: "Alice";*/
     font-size: 98px;
+    font-weight: 600;
     letter-spacing: -8px;
     text-shadow: 1px 2px 1px rgba(3, 1, 1, 0.7);
-    margin: 0 10px 0 5px;
+    margin-right: 5px;
 }
 .caption .super-large-caption h2 {
     font-size: 80px;
@@ -274,6 +275,7 @@ section#portfolio {
         text-align: left;
     }
     .two {
+        margin-right: 14px;
         font-size: 35px;
     }
     .wdy {
