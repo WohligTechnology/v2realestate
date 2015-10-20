@@ -47,7 +47,7 @@
 				<i class="fa fa-bars fa-fw"></i>
 			</button>
 			<a class="navbar-brand weight-900" href="<?php echo site_url('site') ?>">
-				<h1> <img id="logo" alt="" src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">II</span>realestate</h1></a>
+				<h1> <img id="logo" alt="" src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>realestate</h1></a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->

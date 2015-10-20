@@ -21,7 +21,7 @@
 						<div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>
 						<div class="logo-img"><img src="<?php echo base_url('assets/img/logo.png');?>" alt="VIIREALESTATE"></div>
 						<div class=" text-center weight-800 super-large-caption vlogo">
-							<h2 class="weight-800">v<span class="two">II</span>realestate</h2></div>
+							<h2 class="weight-800">v<span class="two">2</span>realestate</h2></div>
 						<h4 class="color-white text-center weight-600 uppercase " style="letter-spacing: 1px;">Find out all about us</h4>
 						<a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa-chevron-down" style="font-size: 16px"></i></a>
 					</div>
@@ -61,7 +61,7 @@
 
 						<div class="col-md-8 col-md-offset-2 text-center pdn">
 							<h1 class="weight-800 kill-top-margin uppercase">About Us</h1>
-							<h4 class="weight-400"> V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company.</h4>
+							<h4 class="weight-400"> V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company.</h4>
 
 						</div>
 					</div>
@@ -70,11 +70,11 @@
 						<div class="col-md-8">
 							<div class="about-cont">
 								<p>
-									V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian & foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
+									V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian & foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
 
-								<p>V2 Real Estate boasts of a country-wide real estate spread across many cities of India and spread across multiple projects catering to ultra-luxury and luxury commercial properties to its variety of clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses.</p>
+								<p>V2 Real Estate Private Limited boasts of a country-wide real estate spread across many cities of India and spread across multiple projects catering to ultra-luxury and luxury commercial properties to its variety of clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses.</p>
 
-								<p>V2 Real Estate is renowned for strong solution-centric project execution, skills through an in-house project management team and strategic tie-ups / associations with domestic / International contractors, architects, engineers, legal firms and brand partners. V2 Real Estate is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate is also having strategic partnership with India’s leading Logistic Company. </p>
+								<p>V2 Real Estate Private Limited is renowned for strong solution-centric project execution, skills through an in-house project management team and strategic tie-ups / associations with domestic / International contractors, architects, engineers, legal firms and brand partners. V2 Real Estate Private Limited is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate Private Limited is also having strategic partnership with India’s leading Logistic Company. </p>
 							</div>
 							<div class="pull-right">
 								<a href="<?php echo site_url('/site/aboutus') ?>" class="weight-600">
