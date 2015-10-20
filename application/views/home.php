@@ -603,7 +603,7 @@
 						</div>
 						<div class="col-md-4 mid-made">
 							<h4 class="uppercase weight-700" style="margin-top: 20px">Drop by the office</h4>
-							<p><strong class="color-primary text-upper">V2RealEstate</strong>
+							<p><strong class="color-primary text-upper">V2 RealEstate Private Limited</strong>
 								<br>802, Arcadia,
 								<br> NCPA Road,
 								<br> Nariman Point,
