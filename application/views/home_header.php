@@ -93,7 +93,7 @@
 			<div class="row sticky header">
 				<div class="col-xs-6">
 					<a href="">
-						<h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>realestate</h1>
+						<h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>real estate</h1>
 					</a>
 				</div>
 				<div class="col-xs-6">
