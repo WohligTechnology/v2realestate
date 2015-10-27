@@ -53,7 +53,7 @@
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="main-menu">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav home-head">
 					<li>
 						<a class="scrollto text-center" href="#homes">
 							<i class="flaticon-home4"></i>

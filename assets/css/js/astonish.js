@@ -22,7 +22,7 @@
 
 $(window).load(function() {
 	$(".loader-img").delay(500).fadeOut();
-	$("#pageloader").delay(1000).fadeOut("slow");
+	$("#pageloader").delay(100).fadeOut("slow");
 	var hash = window.location.hash;
 	if(!hash) { 
 	// Do nothing //

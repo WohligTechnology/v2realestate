@@ -1,9 +1,11 @@
 <body data-offset="62" data-spy="scroll" data-target=".navbar" onload="initialize()">
     <!-- ===== PAGE LOADER GRAPHIC ===== -->
+<!--
     <div id="pageloader">
         <div class="loader-img">
             <img alt="loader" src="<?php echo base_url('assets/img/loader.gif');?>" /> </div>
     </div>
+-->
 
     <section id="homes">
         <!-- ======================================= -->
@@ -61,7 +63,7 @@
 
                         <div class="col-md-8 col-md-offset-2 text-center pdn">
                             <h1 class="weight-800 kill-top-margin uppercase">About Us</h1>
-                            <h4 class="weight-400"> V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company.</h4>
+                            <h4 class="weight-400"> V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company.</h4>
 
                         </div>
                     </div>
@@ -70,15 +72,26 @@
                         <div class="col-md-8">
                             <div class="about-cont">
                                 <p>
-                                    V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition and leasing and is providing prime real estate to MNCs, Consulates, Indian corporates, Indian & foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
+                                     V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which
+is conducting activities of real estate acquisition, leasing and is leasing prime real estates to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
 
-                                <p>V2 Real Estate Private Limited boasts of a country-wide real estate spread across many cities of India and spread across multiple projects catering to ultra-luxury and luxury commercial properties to its variety of clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses.</p>
+                                <p>V2 Real Estate Pvt. Ltd. has country-wide real estate operations and serving to multiple projects. It caters
 
-                                <p>V2 Real Estate Private Limited is renowned for strong solution-centric project execution, skills through an in-house project management team and strategic tie-ups / associations with domestic / International contractors, architects, engineers, legal firms and brand partners. V2 Real Estate Private Limited is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate Private Limited is also having strategic partnership with India’s leading Logistic Company. </p>
+customised commercial properties to its clients and boasts of providing real-estate solutions to
+
+MNCs, Consulates, Indian Corporates, Banks (Indian &amp; foreign)&amp; Industrial houses.</p>
+
+                                <p>V2 Real Estate Pvt. Ltd. is renowned for strong solution-centric project execution, in-house project
+
+management team and strategic tie-ups &amp; associations with various professional agencies and brand
+
+partners. V2 Real Estate Pvt. Ltd.  is associated with many national &amp; international brands as its ESTEEMED
+
+CLIENTS. V2 Real Estate Pvt. Ltd.  is also having strategic partnership with India’s leading Logistic Company. </p>
                             </div>
                             <div class="pull-right">
                                 <a href="<?php echo site_url('/site/aboutus') ?>" class="weight-600">
-                                read-more >>
+                                read-more <span class="weight-500">>></span>
                             </a>
                             </div>
                         </div>

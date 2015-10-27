@@ -7,12 +7,15 @@ nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 	z-index: 9999;
 }
 
+ul.nav.navbar-nav.home-head li {
+	width: 100%;
+}
+
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li.dropdown > a:focus {
 	padding-right: 15px;
 	padding-left: 15px;
-	width: 110px;
 }
 
 .navbar-default .navbar-nav > li > a i {
@@ -24,6 +27,7 @@ nav.navbar.navbar-default.navbar-fixed-top.nav-fadein {
 	color: #d4ae70;
 	/*	font-family: 'Alice';*/
 	font-size: 37px;
+	font-weight: 500;
 	margin: 0 8px 0px 0px;
 }
 
@@ -117,8 +121,8 @@ section#portfolio {
 
 .navg {
 	background-color: #fff !important;
-	-webkit-box-shadow: 1px 2px 9px 1px #9A9898;
-	box-shadow: 1px 2px 9px 1px #9A9898;
+	-webkit-box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .abtul > li > a {
