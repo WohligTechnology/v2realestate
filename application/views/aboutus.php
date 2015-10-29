@@ -5,7 +5,7 @@
 
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<h1 class="weight-800 kill-top-margin uppercase">About Us</h1>
-					<h4 class="weight-600"> V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company.</h4>
+<!--					<h4 class="weight-600"> V2 REAL ESTATE PRIVATE LIMITED is one of the fastest-growing Mumbai-based Real Estate Company.</h4>-->
 				</div>
 			</div>
 			<!-- ========== START ICON FEATURES BOX ========== -->

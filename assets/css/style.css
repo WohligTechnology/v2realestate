@@ -80,8 +80,8 @@ section.header {
 	position: fixed;
 	z-index: 9998;
 	background-color: #fff;
-	-webkit-box-shadow: 1px 2px 9px 1px #000;
-	box-shadow: 1px 2px 9px 1px #9A9898;
+	-webkit-box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .row.sticky.header {
