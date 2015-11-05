@@ -63,7 +63,7 @@
 
 						<div class="col-md-8 col-md-offset-2 text-center pdn">
 							<h1 class="weight-800 kill-top-margin uppercase">About Us</h1>
-<!--							<h4 class="weight-400"> V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company.</h4>-->
+							<!--							<h4 class="weight-400"> V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company.</h4>-->
 
 						</div>
 					</div>
@@ -72,11 +72,12 @@
 						<div class="col-md-8">
 							<div class="about-cont">
 								<p>
-									V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition, leasing and is leasing prime real estates to MNCs, Consulates, Indian corporates, Indian &amp; foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Warehouses, Showroom spaces.</p>
+									<b>V2 REAL ESTATE PVT. LTD.</b> is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition &amp; leasing. V2 Real Estate Pvt. Ltd. gives on lease prime real estate to MNCs, Consulates, Indian Corporate houses, Indian &amp; Foreign Banks &amp; Industrial houses in India’s Leading Commercial Complexes, I. T. Parks, Custom-made Warehouses, Prime Showroom spaces.</p>
 
-								<p>V2 Real Estate Pvt. Ltd. has country-wide real estate operations and serving to multiple projects. It caters customised commercial properties to its clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian Corporates, Banks (Indian &amp; foreign)&amp; Industrial houses.</p>
+								<p>V2 Real Estate Pvt. Ltd. has country-wide real estate operations and serving to multiple projects. It caters customised commercial properties to its clients and boasts of providing real-estate solutions to MNCs, Consulates, Indian Corporate houses, Banks (Indian &amp; foreign) &amp; Industrial houses.</p>
 
-								<p>V2 Real Estate Pvt. Ltd. is renowned for strong solution-centric project execution, in-house project management team and strategic tie-ups &amp; associations with various professional agencies and brand partners. V2 Real Estate Pvt. Ltd. is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate Pvt. Ltd. is also having strategic partnership with India’s leading Logistic Company. </p>
+								<p>V2 Real Estate Pvt. Ltd. is renowned for strong solution-centric project execution, inhouse project management team and strategic tie-ups &amp; association with various professional agencies and brand partners. V2 Real Estate Pvt. Ltd. is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate Pvt. Ltd. is also having strategic partnership with India’s leading Logistic Company.
+								</p>
 							</div>
 							<div class="pull-right">
 								<a href="<?php echo site_url('/site/aboutus') ?>" class="weight-600">
