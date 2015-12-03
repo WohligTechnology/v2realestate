@@ -54,14 +54,11 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="main-menu">
 			<ul class="nav navbar-nav navbar-right abtul">
-				<li><a class="scrollto" href="<?php echo site_url('#home') ?>">Home</a></li> 
+				<li><a class="scrollto" href="<?php echo site_url('#home') ?>">Home</a></li>
 				<li><a class="scrollto" href="<?php echo site_url('#about') ?>">About</a></li>
 				<li><a class="scrollto col-act" href="<?php echo site_url('#portfolio') ?>">Projects</a></li>
 				</li>
 				<li><a class="scrollto" href="<?php echo site_url('#contact') ?>">Contact</a></li>
-				<li>
-					<div class="social-icons"><a href="#"><i class="im-twitter"></i></a><a href="#"><i class="im-facebook"></i></a><a href="#"><i class="im-google-plus"></i></a> <a href=""><i class="fa fa-instagram"></i></a></div>
-				</li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

@@ -35,9 +35,9 @@
 	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.isotope.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/animation-engine.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/validation.js');?>"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/google.map-settings.js');?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/style-switcher.js');?>"></script>
+	<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
+	<!-- <script type="text/javascript" src="<?php echo base_url('assets/js/google.map-settings.js');?>"></script> -->
+	<!-- <script type="text/javascript" src="<?php echo base_url('assets/js/style-switcher.js');?>"></script> -->
 	<script type="text/javascript" src="<?php echo base_url('assets/js/astonish.js');?>"></script>
 </head>
 

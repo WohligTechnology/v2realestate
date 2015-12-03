@@ -123,9 +123,9 @@
 				</div>
 			</div>
 -->
-        
-        
-        
+
+
+
 <div class="row">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#warehousing"><i class="fa fa-industry"></i> Central Warehousing</a></li>
@@ -139,21 +139,19 @@
      			<div id="myCarousel1" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner central-warehouse" role="listbox">
-    <div class="item active">
+		<div class="item active">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/3.jpg');?>" />
         </a>
          </div>
-
+				  <div class="item">
+				     <a href="<?php echo site_url('site/project') ?>" on-click="">
+				 			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/1.jpg');?>" />
+				         </a>
+				          </div>
     <div class="item">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
-        </a>
-    </div>
-
-    <div class="item">
-      <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/2.jpg');?>" />
         </a>
     </div>
                 </div>
@@ -176,19 +174,19 @@
   <div class="carousel-inner central-warehouse" role="listbox">
     <div class="item active">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/arcadia/11.jpg');?>" />
         </a>
          </div>
 
     <div class="item">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/arcadia/12.jpg');?>" />
         </a>
     </div>
 
     <div class="item">
       <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/arcadia/13.JPG');?>" />
         </a>
     </div>
                 </div>
@@ -211,19 +209,19 @@
   <div class="carousel-inner central-warehouse" role="listbox">
     <div class="item active">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/bare_shell/1.jpg');?>" />
         </a>
          </div>
 
     <div class="item">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/bare_shell/2.jpg');?>" />
         </a>
     </div>
 
     <div class="item">
       <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/bare_shell/3.JPG');?>" />
         </a>
     </div>
                 </div>
@@ -246,21 +244,9 @@
   <div class="carousel-inner central-warehouse" role="listbox">
     <div class="item active">
     <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+			<img alt="loader" src="<?php echo base_url('assets/img/banking/1.jpg');?>" />
         </a>
          </div>
-
-    <div class="item">
-    <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
-        </a>
-    </div>
-
-    <div class="item">
-      <a href="<?php echo site_url('site/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
-        </a>
-    </div>
                 </div>
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
