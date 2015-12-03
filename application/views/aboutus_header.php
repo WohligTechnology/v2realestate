@@ -47,7 +47,7 @@
 				<i class="fa fa-bars fa-fw"></i>
 			</button>
 			<a class="navbar-brand weight-900" href="<?php echo site_url('site') ?>">
-				<h1> <img id="logo" alt="" src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>real estate</h1></a>
+				<h1> <img id="logo" alt="" src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>Real Estate Pvt Ltd</h1></a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,9 +58,11 @@
 				<li><a class="scrollto" href="<?php echo site_url('#portfolio') ?>">Projects</a></li>
 				</li>
 				<li><a class="scrollto" href="<?php echo site_url('#contact') ?>">Contact</a></li>
+<!--
 				<li>
 					<div class="social-icons abtul"><a href="#"><i class="im-twitter"></i></a><a href="#"><i class="im-facebook"></i></a><a href="#"><i class="im-google-plus"></i></a><a href=""><i class="fa fa-instagram"></i></a></div>
 				</li>
+-->
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

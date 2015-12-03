@@ -20,28 +20,29 @@
 				<div class="parallax img-overlay3" style="background-image:url(<?php echo base_url('assets/img/slider/skyscrapers.jpg');?>)" data-stellar-background-ratio="0.2">
 					<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.3);"></div>
 					<div class="caption text-center">
-						<div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>
+<!--						<div class="color-white text-center weight-300 large-caption " style="margin-top: -150px">Are you ready to be</div>-->
 						<div class="logo-img"><img src="<?php echo base_url('assets/img/logo.png');?>" alt="VIIREALESTATE"></div>
-						<div class=" text-center weight-800 super-large-caption vlogo">
-							<h2 class="weight-800">v<span class="two">2 </span>real estate</h2></div>
-						<h4 class="color-white text-center weight-600 uppercase " style="letter-spacing: 1px;">Find out all about us</h4>
-						<a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa-chevron-down" style="font-size: 16px"></i></a>
+						<div class=" text-center weight-800 super-large-caption vlogo head-h2">
+							<h2 class="weight-800">v<span class="two">2 </span>REAL ESTATE PVT. LTD.</h2></div>
+<!--						<h4 class="color-white text-center weight-600 uppercase " style="letter-spacing: 1px;">Find out all about us</h4>-->
+						<a href="#about" class="scrollto btn btn-primary btn-outline btn-lg rounded" style="margin-top: 10px"><i class="fa fa-chevron-down" style="font-size: 16px"></i></a>
 					</div>
 				</div>
 				<div class="parallax img-overlay3" style="background-image:url(<?php echo base_url('assets/img/slider/skyscrapers.jpg');?>)" data-stellar-background-ratio="0.2">
 					<div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.3);"></div>
 					<div class="caption">
-						<div class="color-white weight-800 uppercase text-center extra-large-caption " style="margin-top: -140px">Real Estate</div>
-						<div class="color-white weight-300 text-center medium-caption " style="letter-spacing: 1px; margin: 30px 0">Real Estate</div>
+				<div class=" text-center weight-800 super-large-caption vlogo head-h2">
+                        <div class="logo-img"><img src="<?php echo base_url('assets/img/logo.png');?>" alt="VIIREALESTATE"></div>
+							<h2 class="weight-800">v<span class="two">2 </span>REAL ESTATE PVT. LTD.</h2></div>
 						<br/>
-						<div class="text-center"><a href="#portfolio" class="scrollto btn btn-white btn-outline" style="margin-top: 10px">Our Products</a><a href="#about" class="scrollto btn btn-primary btn-outline" style="margin-top: 10px">About Us</a>
+						<div class="text-center"><a href="#portfolio" class="scrollto btn btn-white btn-outline" style="margin-top: 10px">Our Projects</a><a href="#about" class="scrollto btn btn-primary btn-outline" style="margin-top: 10px">About Us</a><a href="#contact" class="scrollto btn btn-white btn-outline" style="margin-top: 10px">Contact</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<nav class="slides-navigation">
-				<a href="#" class="next"><i class="fa-angle-right"></i></a>
-				<a href="#" class="prev"><i class="fa-angle-left"></i></a>
+				<a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+				<a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
 			</nav>
 		</div>
 
@@ -79,11 +80,13 @@
 								<p>V2 Real Estate Pvt. Ltd. is renowned for strong solution-centric project execution, inhouse project management team and strategic tie-ups &amp; association with various professional agencies and brand partners. V2 Real Estate Pvt. Ltd. is associated with many national &amp; international brands as its ESTEEMED CLIENTS. V2 Real Estate Pvt. Ltd. is also having strategic partnership with India’s leading Logistic Company.
 								</p>
 							</div>
+<!--
 							<div class="pull-right">
 								<a href="<?php echo site_url('/site/aboutus') ?>" class="weight-600">
                                Read More <span class="weight-500">>></span>
                             </a>
 							</div>
+-->
 						</div>
 						<div class="col-md-4 clear">
 							<figure class="text-center">
@@ -104,12 +107,12 @@
 			<div class="container">
 				<div class="row" style="margin-bottom: 40px;">
 					<div class="col-md-8 col-md-offset-2 text-center pdn wdy">
-						<h1 class="weight-800 kill-top-margin uppercase">Products</h1>
+						<h1 class="weight-800 kill-top-margin uppercase">Projects</h1>
 						<h4 class="weight-400">Have a look at what we've been up to. View some of our best work.</h4>
 					</div>
 				</div>
-			</div>
 
+<!--
 			<div class="row text-center">
 				<div class="col-md-12" id="isotope-filter">
 					<a data-filter="*" href="#" class="btn btn-sm btn-outline btn-primary active">Show All</a>
@@ -119,6 +122,163 @@
 					<a data-filter=".banking-sol" href="#" class="btn btn-sm btn-outline btn-primary">Banking Solutions</a>
 				</div>
 			</div>
+-->
+        
+        
+        
+<div class="row">
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#warehousing"><i class="fa fa-industry"></i> Central Warehousing</a></li>
+    <li><a data-toggle="tab" href="#offices"><i class="fa fa-building"></i> Tailor Made Office</a></li>
+    <li><a data-toggle="tab" href="#bare-shell"><i class="fa fa-university"></i>  Bare Shell</a></li>
+    <li><a data-toggle="tab" href="#banking"><i class="fa fa-usd"></i> Banking Solutions</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="warehousing" class="tab-pane fade in active">
+     			<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner central-warehouse" role="listbox">
+    <div class="item active">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+         </div>
+
+    <div class="item">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+    </div>
+
+    <div class="item">
+      <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+        </a>
+    </div>
+                </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+<!--    <span class="fa fa" aria-hidden="true"></span>-->
+   <i class="fa fa-angle-left"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+     <i class="fa fa-angle-right"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+    <div id="offices" class="tab-pane fade">
+      			<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner central-warehouse" role="listbox">
+    <div class="item active">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+         </div>
+
+    <div class="item">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+    </div>
+
+    <div class="item">
+      <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+        </a>
+    </div>
+                </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+<!--    <span class="fa fa" aria-hidden="true"></span>-->
+   <i class="fa fa-angle-left"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+     <i class="fa fa-angle-right"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+    <div id="bare-shell" class="tab-pane fade">
+      			<div id="myCarousel3" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner central-warehouse" role="listbox">
+    <div class="item active">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+         </div>
+
+    <div class="item">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+    </div>
+
+    <div class="item">
+      <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+        </a>
+    </div>
+                </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+<!--    <span class="fa fa" aria-hidden="true"></span>-->
+   <i class="fa fa-angle-left"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+     <i class="fa fa-angle-right"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+    <div id="banking" class="tab-pane fade">
+      			<div id="myCarousel4" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner central-warehouse" role="listbox">
+    <div class="item active">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+         </div>
+
+    <div class="item">
+    <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/pictures/CWC.jpg');?>" />
+        </a>
+    </div>
+
+    <div class="item">
+      <a href="<?php echo site_url('site/project') ?>" on-click="">
+			<img alt="loader" src="<?php echo base_url('assets/img/warehouse/IMG_3004.JPG');?>" />
+        </a>
+    </div>
+                </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+<!--    <span class="fa fa" aria-hidden="true"></span>-->
+   <i class="fa fa-angle-left"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+     <i class="fa fa-angle-right"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+  </div>
+</div>
+
+<!--
 			<div class="row">
 				<div id="isotope">
 					<div class="col-sm-3 central-warehouse pdn">
@@ -435,10 +595,11 @@
 						</div>
 					</div>
 				</div>
+-->
 				<!-- END ISOTOPE SCRIPT -->
-			</div>
 
 		</div>
+        </div>
 	</section>
 	<!-- ======================================== -->
 	<!-- =========== END PORTFOLIO SECTION ============= -->
@@ -531,11 +692,11 @@
 								<br> NCPA Road,
 								<br> Nariman Point,
 								<br> Mumbai - 400 021.
-								<br> Telphone No :- 022 22884506
 								<hr/>
 								<h4 class="uppercase weight-700">Give us a shout</h4>
 								<p><a href="mailto:v2re.contact@gmail.com" class="weight-700">v2re.contact@gmail.com</a>
 									<br/>Telphone No :- 022 22884506
+									<br/>Telphone No :- 022 22884546
 						</div>
 					</div>
 				</div>

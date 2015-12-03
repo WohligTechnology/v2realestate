@@ -19,7 +19,6 @@
 	<link id="header-switch" href="<?php echo base_url('assets/css/headers/dark.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/animate.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/astonish.css');?>" media="screen" rel="stylesheet" type="text/css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('assets/css/flaticon.css');?>" rel="stylesheet" media="screen" type="text/css">
 	<!--    <link id="style-switch" href="css/color-schemes/default.css" media="screen" rel="stylesheet" type="text/css">-->
 	<link href="<?php echo base_url('assets/css/style.css');?>" media="screen" rel="stylesheet" type="text/css">
@@ -93,9 +92,10 @@
 			<div class="row sticky header">
 				<div class="col-xs-6">
 					<a href="">
-						<h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>real estate</h1>
+						<h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>Real Estate Pvt Ltd</h1>
 					</a>
 				</div>
+<!--
 				<div class="col-xs-6">
 					<div class="pull-right header-icon">
 						<a href=""> <i class="fa fa-twitter"></i>
@@ -105,6 +105,7 @@
 						<a href=""><i class="fa fa-instagram"></i></a>
 					</div>
 				</div>
+-->
 			</div>
 		</div>
 	</section>

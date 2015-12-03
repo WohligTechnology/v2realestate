@@ -102,7 +102,7 @@ section.header {
 .row.sticky.header a h1 {
 	margin: 0 0 0 16%;
 	color: #d4ae70;
-	font-size: 28px;
+	font-size: 30px;
 	text-transform: uppercase;
 	line-height: 0.8;
 }
@@ -178,35 +178,16 @@ section#portfolio {
 .two {
 	color: #d4ae70;
 	/*	font-family: "Alice";*/
-	font-size: 75px;
+	font-size: 98px;
 	font-weight: 600;
 	text-shadow: 1px 2px 1px rgba(3, 1, 1, 0.7);
 	margin-right: 5px;
 }
-.carousel-control .fa{
-    position: absolute;
-    top: 50%;
-    z-index: 5;
-    display: inline-block;
-    font-size: 30px;
-}
-.carousel-control .fa.fa-angle-right {
-    right: 50%;
-}
 
-.carousel {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-}
-.carousel-control .fa.fa-angle-left {
-    left: 50%;
-}
-.head-h2 h2 {
-	font-size: 60px;
+.caption .super-large-caption h2 {
+	font-size: 80px;
 	color: #d4ae70;
 	text-shadow: 1px 2px 1px rgba(3, 1, 1, 0.7);
-    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1200px) and (min-width:990px) {
