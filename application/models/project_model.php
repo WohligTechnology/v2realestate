@@ -50,7 +50,7 @@ class project_model extends CI_Model
 
     public function getSingleProject($id) {
         $query= $this->db->query("SELECT * FROM `realestate_project`  WHERE `realestate_project`.`id` = '$id'")->row();
-        $query->images = $this->db->query("SELECT `image` FROM `realestate_projectimages` WHERE `realestate_projectimages`.`project` = '$row->id'");
+        $query->images = $this->db->query("SELECT `image` FROM `realestate_projectimages` WHERE `realestate_projectimages`.`project` = '$id'")->result();
         return $query;
     }
 }
