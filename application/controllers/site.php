@@ -7,10 +7,10 @@ class Site extends CI_Controller {
 	 *
 	 * Maps to the following URL
 	 * 		http://example.com/index.php/welcome
-	 *	- or -  
+	 *	- or -
 	 * 		http://example.com/index.php/welcome/index
 	 *	- or -
-	 * Since this controller is set as the default controller in 
+	 * Since this controller is set as the default controller in
 	 * config/routes.php, it's displayed at http://example.com/
 	 *
 	 * So any other public methods not prefixed with an underscore will
@@ -18,21 +18,22 @@ class Site extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{ 
+	{
         $data["content"]="home";
         $data["header"]="home_header";
 		$this->load->view('template',$data);
 	}
     public function project(){
      $data["content"]="project";
-        $data["header"]="project_header";
+        $data["header"]="home_header";
 		$this->load->view('template',$data);
     }
-    public function aboutus(){
-     $data["content"]="aboutus";
-        $data["header"]="aboutus_header";
+    public function gallery(){
+     $data["content"]="gallery";
+		    //  $data["header"]="home_header";
+        $data["header"]="gallery_header";
 		$this->load->view('template',$data);
-    }  
+    }
 }
 
 /* End of file welcome.php */

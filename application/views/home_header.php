@@ -42,7 +42,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top nav-fadein" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-top nav-fadein nav-fadein-css" role="navigation">
 		<div class="">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -74,6 +74,14 @@
 							<br> Projects
 						</a>
 					</li>
+						<li>
+							<a class="scrollto text-center" href="site/gallery">
+												<i class="fa fa-picture-o"></i>
+												<br>
+												<br> Gallery
+											</a>
+										</li>
+
 					<li>
 						<a class="scrollto text-center" href="#contact">
 							<i class="flaticon-telephone34"></i>
@@ -90,22 +98,11 @@
 	<section class="header nav-fadein">
 		<div class="container">
 			<div class="row sticky header">
-				<div class="col-xs-6">
+				<div class="col-xs-12">
 					<a href="">
 						<h1><img src="<?php echo base_url('assets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>Real Estate Pvt Ltd</h1>
 					</a>
 				</div>
-<!--
-				<div class="col-xs-6">
-					<div class="pull-right header-icon">
-						<a href=""> <i class="fa fa-twitter"></i>
-						</a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-google-plus"></i></a>
-						<a href=""><i class="fa fa-instagram"></i></a>
-					</div>
-				</div>
--->
 			</div>
 		</div>
 	</section>
