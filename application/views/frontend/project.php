@@ -12,14 +12,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Warehouse Solutions</h2>
-								<h5>A COMPLETE SOLUTION FOR ALL WAREHOUSING REQUIREMENTS AND SERVICES</h5>
-							<p>At V2 Real Estate Private Limited, we provide Total Warehouse Project Solutions i.e. warehouse advisory, land procurement, architecture, construction, sourcing of warehouse equipment, storage system &amp; lease management.
-							</p>
-							<p>Our building materials, warehouse equipment and other required systems are sourced from reputed manufacturers so as to deliver a strong and well –constructed real estate to our valued clients.
-							</p>
-							<p>We take the entire responsibility starting from identifying the right location, project completion and customized installations and thereby reduce the challenges faced by our clients in procuring the right warehouse property.</p>
-<!--				<hr style="margin-top: 10px; margin-bottom: 0" />-->
+				<h2><?php echo ($project->name);?></h2>
+								<?php echo ($project->desc);?>
 			</div>
 		</div>
 
