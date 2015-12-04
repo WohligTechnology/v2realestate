@@ -75,7 +75,7 @@
 						</a>
 					</li>
 						<li>
-							<a class="scrollto text-center" href="site/gallery">
+							<a class="scrollto text-center" href="<?php echo site_url('site/gallery') ?>">
 												<i class="fa fa-picture-o"></i>
 												<br>
 												<br> Gallery
