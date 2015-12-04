@@ -1,5 +1,5 @@
-<?php
-    $this->load->view($header);
-    $this->load->view($content);
-    $this->load->view("footer");
+<?php 
+echo $this->load->view('backend/header');
+echo $this->load->view('backend/'.$page);
+echo $this->load->view('backend/footer');
 ?>

@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','session','form_validation','cart','csvreader','pagination','chintantable');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array("url");
+$autoload['helper'] = array('url','file','form','date','config_helper');
 
 
 /*
@@ -109,8 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
-
+$autoload['model'] = array('user_model','menu_model','detailproject_model','project_model','projectimages_model');
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */

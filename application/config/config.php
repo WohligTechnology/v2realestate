@@ -10,13 +10,32 @@
 |
 |	http://example.com/
 |
-| If this is not set then CodeIgniter will try to guess the protocol, domain
-| and path to your installation. However, you should always configure this
-| explicitly and never rely on auto-guessing, especially in production
-| environments.
+| If this is not set then CodeIgniter will guess the protocol, domain and
+| path to your installation.
 |
 */
-$config['base_url'] = '';
+$myserver=$_SERVER['SERVER_NAME'];
+
+//if($myserver=="www.mafiawarloots.com" || $myserver=="www.wohlig.biz" || $myserver=="mafiawarloots.com" || $myserver=="wohlig.biz")
+//if($myserver!="localhost")
+//{
+//$myconfig= base64_decode(file_get_contents("/home/mafiawarloots/config/createo.png"));
+//}
+//else
+//{
+//$myconfig= file_get_contents("C:/xampp/htdocs/config/config.json");
+//}
+//$config['myconfig']=json_decode($myconfig);
+//
+//$myconfig=json_decode($myconfig);
+//
+//$config['base_url']	= $myconfig->baseurl;
+//$config['projectname']=$myconfig->projectname;
+//$config['database']=$myconfig->database;
+//$config['username']=$myconfig->username;
+//$config['hostname']=$myconfig->hostname;
+//$config['password']=$myconfig->password;
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
@@ -226,7 +245,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'AvinashGhare';
 
 /*
 |--------------------------------------------------------------------------
@@ -247,7 +266,7 @@ $config['encryption_key'] = '';
 |
 */
 $config['sess_cookie_name']		= 'ci_session';
-$config['sess_expiration']		= 7200;
+$config['sess_expiration']		= 0;
 $config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
