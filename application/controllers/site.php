@@ -526,6 +526,7 @@ class Site extends CI_Controller
         $this->checkaccess($access);
         $data['page'] = 'createprojectimages';
         $data['title'] = 'Create projectimages';
+$data[ 'project' ] = $this->projectimages_model->getprojectdropdown();
         $this->load->view('template', $data);
     }
     public function createprojectimagessubmit()
@@ -534,6 +535,7 @@ class Site extends CI_Controller
         $this->checkaccess($access);
         $this->form_validation->set_rules('project', 'Project', 'trim');
         $this->form_validation->set_rules('image', 'Image', 'trim');
+			$data[ 'project' ] = $this->projectimages_model->getprojectdropdown();
         if ($this->form_validation->run() == false) {
             $data['alerterror'] = validation_errors();
             $data['page'] = 'createprojectimages';

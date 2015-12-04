@@ -36,5 +36,19 @@ public function delete($id)
 $query=$this->db->query("DELETE FROM `realestate_projectimages` WHERE `id`='$id'");
 return $query;
 }
+public function getprojectdropdown()
+{
+$query=$this->db->query("SELECT * FROM `realestate_project`  ORDER BY `id` ASC")->result();
+$return=array(
+"" => ""
+);
+foreach($query as $row)
+{
+  $return[$row->id]=$row->name;
 }
+
+return $return;
+}
+}
+
 ?>
