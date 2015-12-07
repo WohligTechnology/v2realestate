@@ -108,38 +108,38 @@
 				<div class="row" style="margin-bottom: 40px;">
 					<div class="col-md-8 col-md-offset-2 text-center pdn wdy">
 						<h1 class="weight-800 kill-top-margin uppercase">Projects</h1>
+
 						<h4 class="weight-400">Have a look at what we've been up to. View some of our best work.</h4>
 					</div>
 				</div>
 
 <div class="row">
   <ul class="nav nav-tabs project-tab">
-    <li class="active"><a data-toggle="tab" href="#warehousing"><i class="fa fa-industry"></i> Central Warehousing</a></li>
-    <li><a data-toggle="tab" href="#offices"><i class="fa fa-building"></i> Tailor Made Office</a></li>
-    <li><a data-toggle="tab" href="#bare-shell"><i class="fa fa-university"></i>  Bare Shell</a></li>
-    <li><a data-toggle="tab" href="#banking"><i class="fa fa-usd"></i> Banking Solutions</a></li>
+		<?php foreach($project as $key => $row) { ?>
+    <li <?php if($key == 0 ) { echo 'class="active"'; } ?> ><a data-toggle="tab" href="#project<?php echo $row->id;?>"><i class="fa <?php echo $row->icon;?>"></i> <?php echo $row->name;?> </a></li>
+		<?php
+		}
+		?>
   </ul>
   <div class="tab-content">
-    <div id="warehousing" class="tab-pane fade in active">
+<?php foreach ($project as $key2 => $row) {
+?>
+
+    <div id="project<?php echo $row->id;?>" class="tab-pane fade in <?php if($key2 == 0) { echo "active in"; }?>">
      			<div id="myCarousel1" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner central-warehouse" role="listbox">
-		<div class="item active">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/warehouse/3.jpg');?>" />
-        </a>
-         </div>
-				  <div class="item">
-				     <a href="<?php echo site_url('website/project') ?>" on-click="">
-				 			<img alt="loader" src="<?php echo base_url('frontassets/img/warehouse/1.jpg');?>" />
-				         </a>
-				          </div>
-    <div class="item">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/warehouse/2.jpg');?>" />
-        </a>
+		<?php foreach($row->images as $key => $image) { ?>
+
+		<div class="item <?php if($key == 0) { echo "active"; }?>">
+	    <a href="<?php echo site_url("website/project?id=$row->id") ?>" on-click="">
+				<img alt="loader" src="<?php echo base_url("uploads/$image->image");?>" />
+	    </a>
     </div>
-                </div>
+
+		<?php } ?>
+
+  </div>
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
 <!--    <span class="fa fa" aria-hidden="true"></span>-->
@@ -153,101 +153,11 @@
   </a>
 </div>
     </div>
-    <div id="offices" class="tab-pane fade">
-      			<div id="myCarousel2" class="carousel slide" data-ride="carousel">
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner central-warehouse" role="listbox">
-    <div class="item active">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/arcadia/11.jpg');?>" />
-        </a>
-         </div>
 
-    <div class="item">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/arcadia/12.jpg');?>" />
-        </a>
-    </div>
+<?php } ?>
 
-    <div class="item">
-      <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/arcadia/13.JPG');?>" />
-        </a>
-    </div>
-                </div>
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
-<!--    <span class="fa fa" aria-hidden="true"></span>-->
-   <i class="fa fa-angle-left"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
-<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-     <i class="fa fa-angle-right"></i>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-    <div id="bare-shell" class="tab-pane fade">
-      			<div id="myCarousel3" class="carousel slide" data-ride="carousel">
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner central-warehouse" role="listbox">
-    <div class="item active">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/bare_shell/1.jpg');?>" />
-        </a>
-         </div>
-
-    <div class="item">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/bare_shell/2.jpg');?>" />
-        </a>
-    </div>
-
-    <div class="item">
-      <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/bare_shell/3.JPG');?>" />
-        </a>
-    </div>
-                </div>
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
-<!--    <span class="fa fa" aria-hidden="true"></span>-->
-   <i class="fa fa-angle-left"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
-<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-     <i class="fa fa-angle-right"></i>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-    <div id="banking" class="tab-pane fade">
-      			<div id="myCarousel4" class="carousel slide" data-ride="carousel">
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner central-warehouse" role="listbox">
-    <div class="item active">
-    <a href="<?php echo site_url('website/project') ?>" on-click="">
-			<img alt="loader" src="<?php echo base_url('frontassets/img/banking/1.jpg');?>" />
-        </a>
-         </div>
-                </div>
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
-<!--    <span class="fa fa" aria-hidden="true"></span>-->
-   <i class="fa fa-angle-left"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
-<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-     <i class="fa fa-angle-right"></i>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-  </div>
-</div>
+  </div> <!-- Tab Content End -->
+</div> <!-- Row End -->
 				<!-- END ISOTOPE SCRIPT -->
 
 		</div>

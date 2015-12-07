@@ -26,18 +26,21 @@ class Website extends CI_Controller
     {
         $data['content'] = 'home';
         $data['header'] = 'home_header';
+				$data["project"] = $this->project_model->getAllProjects();
         $this->load->view('templateFront', $data);
     }
     public function project()
     {
         $data['content'] = 'project';
+				$id = $this->input->get_post("id");
+				$data["project"] = $this->project_model->getSingleProject($id);
         $data['header'] = 'home_header';
         $this->load->view('templateFront', $data);
     }
     public function gallery()
     {
         $data['content'] = 'gallery';
-            //  $data["header"]="home_header";
+				$data["project"] = $this->project_model->getAllProjects();
         $data['header'] = 'gallery_header';
         $this->load->view('templateFront', $data);
     }
