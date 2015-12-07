@@ -1,6 +1,6 @@
 <div class="row">
 <div class="col s12">
-<h4 class="pad-left-15">Edit projectimages</h4>
+<h4 class="pad-left-15">Edit Project Images</h4>
 </div>
 </div>
 <div class="row">
@@ -12,7 +12,6 @@
 <label for="Project">Project</label>
 </div>
 </div>
-
 <div class="row">
 <div class="file-field input-field col m6 s12">
 <span class="img-center big image1">

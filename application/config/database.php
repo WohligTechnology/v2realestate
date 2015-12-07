@@ -54,7 +54,7 @@ $myserver=$_SERVER['SERVER_NAME'];
 
 if($myserver!="localhost")
 {
-    $db['default']['hostname'] = 'localhost';
+    $db['default']['hostname'] = 'wohlig_realestate';
     $db['default']['username'] = 'root';
     $db['default']['password'] = '';
     $db['default']['database'] = 'realestate';

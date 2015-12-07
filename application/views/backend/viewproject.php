@@ -10,6 +10,7 @@
 <th data-field="order">Order</th>
 <th data-field="status">Status</th>
 <th data-field="name">Name</th>
+<th data-field="icon">Icon</th>
 </tr>
 </thead>
 <tbody>

@@ -126,14 +126,14 @@
 ?>
 
     <div id="project<?php echo $row->id;?>" class="tab-pane fade in <?php if($key2 == 0) { echo "active in"; }?>">
-     			<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+     			<div id="project<?php echo $row->id;?>" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner central-warehouse" role="listbox">
 		<?php foreach($row->images as $key => $image) { ?>
 
 		<div class="item <?php if($key == 0) { echo "active"; }?>">
 	    <a href="<?php echo site_url("website/project?id=$row->id") ?>" on-click="">
-				<img alt="loader" src="<?php echo base_url("uploads/$image->image");?>" />
+				<img alt="loader" class="full-image" src="<?php echo base_url("uploads/$image->image");?>" />
 	    </a>
     </div>
 
@@ -141,12 +141,12 @@
 
   </div>
   <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#project<?php echo $row->id;?>" role="button" data-slide="prev">
 <!--    <span class="fa fa" aria-hidden="true"></span>-->
    <i class="fa fa-angle-left"></i>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+  <a class="right carousel-control" href="#project<?php echo $row->id;?>" role="button" data-slide="next">
 <!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
      <i class="fa fa-angle-right"></i>
     <span class="sr-only">Next</span>

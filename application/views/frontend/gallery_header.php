@@ -38,7 +38,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top nav-fadein-css">
+	<nav class="navbar navbar-default navbar-fixed-top nav-fadein-css" role="navigation">
 		<div class="">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -50,28 +50,28 @@
 			<div class="collapse navbar-collapse" id="main-menu">
 				<ul class="nav navbar-nav home-head">
 					<li>
-						<a class="scrollto text-center" href="<?php echo site_url('#home') ?>">
+						<a class="scrollto text-center" href="<?php echo site_url('website/index') ?>#homes">
 							<i class="flaticon-home4"></i>
 							<br>
 							<br> Home
 						</a>
 					</li>
 					<li>
-						<a class="scrollto text-center" href="<?php echo site_url('#about') ?>">
+						<a class="scrollto text-center" href="<?php echo site_url('website/index') ?>#about">
 							<i class="flaticon-info31"></i>
 							<br>
 							<br> About
 						</a>
 					</li>
 					<li>
-						<a class="scrollto text-center" href="<?php echo site_url('#portfolio') ?>">
+						<a class="scrollto text-center" href="<?php echo site_url('website/index') ?>#portfolio">
 							<i class="fa fa-building-o"></i>
 							<br>
 							<br> Projects
 						</a>
 					</li>
 						<li>
-							<a class="scrollto text-center" href="#">
+							<a class="scrollto text-center active" href="<?php echo site_url('website/gallery') ?>">
 												<i class="fa fa-picture-o"></i>
 												<br>
 												<br> Gallery
@@ -79,7 +79,7 @@
 										</li>
 
 					<li>
-						<a class="scrollto text-center" href="<?php echo site_url('#contact') ?>">
+						<a class="scrollto text-center" href="<?php echo site_url('website/index') ?>#contact">
 							<i class="flaticon-telephone34"></i>
 							<br>
 							<br> Contact
@@ -91,7 +91,7 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-	<section class="header">
+	<section class="header nav-fadein-css">
 		<div class="container">
 			<div class="row sticky header">
 				<div class="col-xs-12">

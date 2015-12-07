@@ -5,9 +5,9 @@ if (!defined('BASEPATH')) {
 }
 class project_model extends CI_Model
 {
-    public function create($order, $status, $name)
+    public function create($order, $status, $name,$icon,$desc)
     {
-        $data = array('order' => $order,'status' => $status,'name' => $name);
+        $data = array('order' => $order,'status' => $status,'name' => $name,'icon' => $icon,'desc' => $desc);
         $query = $this->db->insert('realestate_project', $data);
         $id = $this->db->insert_id();
         if (!$query) {
@@ -24,9 +24,9 @@ class project_model extends CI_Model
         return $query;
     }
 
-    public function edit($id, $order, $status, $name)
+    public function edit($id, $order, $status, $name,$icon,$desc)
     {
-        $data = array('order' => $order,'status' => $status,'name' => $name);
+        $data = array('order' => $order,'status' => $status,'name' => $name,'icon' => $icon,'desc' => $desc);
         $this->db->where('id', $id);
         $query = $this->db->update('realestate_project', $data);
 
@@ -43,7 +43,7 @@ class project_model extends CI_Model
         $query= $this->db->query("SELECT * FROM `realestate_project`")->result();
         foreach($query as $row)
         {
-          $row->images = $this->db->query("SELECT `image` FROM `realestate_projectimages` WHERE `realestate_projectimages`.`project` = '$row->id'")->result();
+          $row->images = $this->db->query("SELECT `image` FROM `realestate_projectimages` WHERE `realestate_projectimages`.`project` = '$row->id' ORDER BY `realestate_projectimages`.`id`")->result();
         }
         return $query;
     }

@@ -407,6 +407,8 @@ class Site extends CI_Controller
         $this->form_validation->set_rules('order', 'Order', 'trim');
         $this->form_validation->set_rules('status', 'Status', 'trim');
         $this->form_validation->set_rules('name', 'Name', 'trim');
+          $this->form_validation->set_rules('icon', 'Icon', 'trim');
+              $this->form_validation->set_rules('desc', 'Desc', 'trim');
         if ($this->form_validation->run() == false) {
             $data['alerterror'] = validation_errors();
             $data['page'] = 'createproject';
@@ -417,7 +419,9 @@ class Site extends CI_Controller
             $order = $this->input->get_post('order');
             $status = $this->input->get_post('status');
             $name = $this->input->get_post('name');
-            if ($this->project_model->create($order, $status, $name) == 0) {
+            $icon = $this->input->get_post('icon');
+              $desc = $this->input->get_post('desc');
+            if ($this->project_model->create($order, $status, $name, $icon , $desc) == 0) {
                 $data['alerterror'] = 'New project could not be created.';
             } else {
                 $data['alertsuccess'] = 'project created Successfully.';
@@ -446,6 +450,8 @@ class Site extends CI_Controller
         $this->form_validation->set_rules('order', 'Order', 'trim');
         $this->form_validation->set_rules('status', 'Status', 'trim');
         $this->form_validation->set_rules('name', 'Name', 'trim');
+            $this->form_validation->set_rules('icon', 'Icon', 'trim');
+                $this->form_validation->set_rules('desc', 'Desc', 'trim');
         if ($this->form_validation->run() == false) {
             $data['alerterror'] = validation_errors();
             $data['page'] = 'editproject';
@@ -458,7 +464,9 @@ class Site extends CI_Controller
             $order = $this->input->get_post('order');
             $status = $this->input->get_post('status');
             $name = $this->input->get_post('name');
-            if ($this->project_model->edit($id, $order, $status, $name) == 0) {
+              $icon = $this->input->get_post('icon');
+                $desc = $this->input->get_post('desc');
+            if ($this->project_model->edit($id, $order, $status, $name,$icon,$desc) == 0) {
                 $data['alerterror'] = 'New project could not be Updated.';
             } else {
                 $data['alertsuccess'] = 'project Updated Successfully.';
@@ -559,6 +567,7 @@ $data[ 'project' ] = $this->projectimages_model->getprojectdropdown();
         $this->checkaccess($access);
         $data['page'] = 'editprojectimages';
         $data['title'] = 'Edit projectimages';
+        $data['project']=$this->projectimages_model->getprojectdropdown();
         $data['before'] = $this->projectimages_model->beforeedit($this->input->get('id'));
         $this->load->view('template', $data);
     }
@@ -568,10 +577,12 @@ $data[ 'project' ] = $this->projectimages_model->getprojectdropdown();
         $this->checkaccess($access);
         $this->form_validation->set_rules('id', 'ID', 'trim');
         $this->form_validation->set_rules('project', 'Project', 'trim');
+        $data['project']=$this->projectimages_model->getprojectdropdown();
         $this->form_validation->set_rules('image', 'Image', 'trim');
         if ($this->form_validation->run() == false) {
             $data['alerterror'] = validation_errors();
             $data['page'] = 'editprojectimages';
+$data['project']=$this->projectimages_model->getprojectdropdown();
             $data['title'] = 'Edit projectimages';
             $data['before'] = $this->projectimages_model->beforeedit($this->input->get('id'));
             $this->load->view('template', $data);

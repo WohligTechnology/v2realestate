@@ -14,23 +14,10 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 pad-left">
 				<h2><?php echo ($project->name);?></h2>
 								<?php echo ($project->desc);?>
 			</div>
 		</div>
-
-
-		<!-- Pagination -->
-<!--
-		<div class="row nofootmg">
-			<div class="col-md-12">
-				<ul class="pager">
-					<li class="previous"><a href="#"><i class="fa fa-angle-double-left"></i> Older</a></li>
-					<li class="next"><a href="#">Newer <i class="fa fa-angle-double-right"></i></a></li>
-				</ul>
-			</div>
-		</div>
--->
 	</div>
 </div>

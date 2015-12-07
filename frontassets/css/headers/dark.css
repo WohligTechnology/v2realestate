@@ -32,7 +32,7 @@
 .navbar-default .navbar-toggle:focus {
 	background-color: #d4ae70 !important;
 	color: #FFF;
-	border-color: #d4ae70 !important; 
+	border-color: #d4ae70 !important;
 }
 
 .navbar-nav {
@@ -69,6 +69,7 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active,
 .navbar-default .navbar-nav > li.active > a,
 .navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav > li.active > a:hover {

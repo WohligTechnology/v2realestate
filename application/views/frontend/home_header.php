@@ -20,7 +20,6 @@
 	<link href="<?php echo base_url('frontassets/css/animate.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('frontassets/css/astonish.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url('frontassets/css/flaticon.css');?>" rel="stylesheet" media="screen" type="text/css">
-	<!--    <link id="style-switch" href="css/color-schemes/default.css" media="screen" rel="stylesheet" type="text/css">-->
 	<link href="<?php echo base_url('frontassets/css/style.css');?>" media="screen" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/jquery-1.11.0.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/bootstrap.min.js');?>"></script>
@@ -31,14 +30,12 @@
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/jquery.nicescroll.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/jquery.nicescroll.plus.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/jquery.superslides.js');?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('frontassets/js/owl.carousel.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/jquery.isotope.min.js');?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('frontassets/js/owl.carousel.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/animation-engine.js');?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('frontassets/js/validation.js');?>"></script>
-	<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
-	<!-- <script type="text/javascript" src="<?php echo base_url('frontassets/js/google.map-settings.js');?>"></script> -->
-	<!-- <script type="text/javascript" src="<?php echo base_url('frontassets/js/style-switcher.js');?>"></script> -->
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/astonish.js');?>"></script>
+	    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+			    <script type="text/javascript" src="<?php echo base_url('frontassets/js/google.map-settings.js');?>"></script>
 </head>
 
 <body>

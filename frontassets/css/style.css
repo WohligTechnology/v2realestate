@@ -472,3 +472,8 @@ span.bold {
 		margin: 0;
 	}
 }
+.full-image{
+width: 100%;
+position: relative;
+top: 50%;
+}

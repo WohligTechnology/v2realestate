@@ -34,7 +34,7 @@ class Website extends CI_Controller
         $data['content'] = 'project';
 				$id = $this->input->get_post("id");
 				$data["project"] = $this->project_model->getSingleProject($id);
-        $data['header'] = 'home_header';
+        $data['header'] = 'project_header';
         $this->load->view('templateFront', $data);
     }
     public function gallery()

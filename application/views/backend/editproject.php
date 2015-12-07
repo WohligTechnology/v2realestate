@@ -25,6 +25,26 @@
 </div>
 </div>
 <div class="row">
+<div class="input-field col s6">
+<label for="Icon">Icon</label>
+<input type="text" id="Icon" name="icon" value='<?php echo set_value('icon',$before->icon);?>'>
+</div>
+</div>
+<!-- <div class="row">
+<div class="col s12 m8">
+<label for="Description">Description</label>
+<textarea type="text" id="some-textarea" name="desc" value='<?php echo set_value('desc',$before->desc);?>'><?php echo $before->desc?></textarea>
+</div>
+</div> -->
+<div class="row">
+           <div class="col s12 m6">
+               <label>Description</label>
+               <textarea id="some-textarea" name="desc" placeholder="Enter text ...">
+                   <?php echo $before->desc?>
+               </textarea>
+           </div>
+       </div>
+<div class="row">
 <div class="col s6">
 <button type="submit" class="btn btn-primary waves-effect waves-light  blue darken-4">Save</button>
 <a href='<?php echo site_url("site/viewproject"); ?>' class='btn btn-secondary waves-effect waves-light red'>Cancel</a>
