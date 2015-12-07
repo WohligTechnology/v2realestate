@@ -26,7 +26,7 @@ class Website extends CI_Controller
     {
         $data['content'] = 'home';
         $data['header'] = 'home_header';
-				$data["project"] = $this->project_model->getAllProjects();
+				$data["project"] = $this->project_model->getAllProjectsOnly3();
         $this->load->view('templateFront', $data);
     }
     public function project()

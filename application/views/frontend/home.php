@@ -114,7 +114,7 @@
 				</div>
 
 <div class="row">
-  <ul class="nav nav-tabs project-tab">
+  <ul class="nav nav-tabs project-tab  nav-justified">
 		<?php foreach($project as $key => $row) { ?>
     <li <?php if($key == 0 ) { echo 'class="active"'; } ?> ><a data-toggle="tab" href="#project<?php echo $row->id;?>"><i class="fa <?php echo $row->icon;?>"></i> <?php echo $row->name;?> </a></li>
 		<?php

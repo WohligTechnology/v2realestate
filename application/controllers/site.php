@@ -589,7 +589,24 @@ $data['project']=$this->projectimages_model->getprojectdropdown();
         } else {
             $id = $this->input->get_post('id');
             $project = $this->input->get_post('project');
-            $image = $this->input->get_post('image');
+            $config['upload_path'] = './uploads/';
+           						$config['allowed_types'] = 'gif|jpg|png|jpeg';
+           						$this->load->library('upload', $config);
+           						$filename="image";
+           						$image="";
+           						if (  $this->upload->do_upload($filename))
+           						{
+           							$uploaddata = $this->upload->data();
+           							$image=$uploaddata['file_name'];
+           						}
+
+           						if($image=="")
+           						{
+           						$image=$this->productimage_model->getimagebyid($id);
+           						   // print_r($image);
+           							$image=$image->image;
+           						}
+
             if ($this->projectimages_model->edit($id, $project, $image) == 0) {
                 $data['alerterror'] = 'New projectimages could not be Updated.';
             } else {

@@ -48,6 +48,15 @@ class project_model extends CI_Model
         return $query;
     }
 
+    public function getAllProjectsOnly3() {
+        $query= $this->db->query("SELECT * FROM `realestate_project`")->result();
+        foreach($query as $row)
+        {
+          $row->images = $this->db->query("SELECT `image` FROM `realestate_projectimages` WHERE `realestate_projectimages`.`project` = '$row->id' ORDER BY `realestate_projectimages`.`id` LIMIT 0,3")->result();
+        }
+        return $query;
+    }
+
     public function getSingleProject($id) {
         $query= $this->db->query("SELECT * FROM `realestate_project`  WHERE `realestate_project`.`id` = '$id'")->row();
         $query->images = $this->db->query("SELECT `image` FROM `realestate_projectimages` WHERE `realestate_projectimages`.`project` = '$id'")->result();
