@@ -568,7 +568,7 @@ $data[ 'project' ] = $this->projectimages_model->getprojectdropdown();
         $data['page'] = 'editprojectimages';
         $data['title'] = 'Edit projectimages';
         $data['project']=$this->projectimages_model->getprojectdropdown();
-        $data['before'] = $this->projectimages_model->beforeedit($this->input->get('id'));
+      $data["before"]=$this->projectimages_model->beforeedit($this->input->get("id"));
         $this->load->view('template', $data);
     }
     public function editprojectimagessubmit()
@@ -589,6 +589,7 @@ $data['project']=$this->projectimages_model->getprojectdropdown();
         } else {
             $id = $this->input->get_post('id');
             $project = $this->input->get_post('project');
+
             $config['upload_path'] = './uploads/';
            						$config['allowed_types'] = 'gif|jpg|png|jpeg';
            						$this->load->library('upload', $config);
@@ -602,8 +603,8 @@ $data['project']=$this->projectimages_model->getprojectdropdown();
 
            						if($image=="")
            						{
-           						$image=$this->productimage_model->getimagebyid($id);
-           						   // print_r($image);
+           						$image=$this->projectimages_model->getimagebyid($id);
+           						   print_r($image);
            							$image=$image->image;
            						}
 
