@@ -116,38 +116,60 @@
 
 <div class="row">
   <ul class="nav nav-tabs project-tab  nav-justified">
-		<?php foreach($project as $key => $row) { ?>
-    <li <?php if($key == 0 ) { echo 'class="active"'; } ?> ><a data-toggle="tab" href="#project<?php echo $row->id;?>"><i class="fa <?php echo $row->icon;?>"></i> <?php echo $row->name;?> </a></li>
+		<?php foreach ($project as $key => $row) {
+    ?>
+    <li <?php if ($key == 0) {
+    echo 'class="active"';
+}
+    ?> ><a data-toggle="tab" href="#project<?php echo $row->id;
+    ?>"><i class="fa <?php echo $row->icon;
+    ?>"></i> <?php echo $row->name;
+    ?> </a></li>
 		<?php
-		}
-		?>
+
+}
+        ?>
   </ul>
   <div class="tab-content">
 <?php foreach ($project as $key2 => $row) {
-?>
+    ?>
 
-    <div id="project<?php echo $row->id;?>" class="tab-pane fade in <?php if($key2 == 0) { echo "active in"; }?>">
-     			<div id="project<?php echo $row->id;?>" class="carousel slide" data-ride="carousel">
+    <div id="project<?php echo $row->id;
+    ?>" class="tab-pane fade in <?php if ($key2 == 0) {
+    echo 'active in';
+}
+    ?>">
+     			<div id="project<?php echo $row->id;
+    ?>" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner central-warehouse" role="listbox">
-		<?php foreach($row->images as $key => $image) { ?>
+		<?php foreach ($row->images as $key => $image) {
+    ?>
 
-		<div class="item <?php if($key == 0) { echo "active"; }?>">
+		<div class="item <?php if ($key == 0) {
+    echo 'active';
+}
+    ?>">
 	    <a href="<?php echo site_url("website/project?id=$row->id") ?>" on-click="">
-				<img alt="loader" class="full-image" src="<?php echo base_url("uploads/$image->image");?>" />
+				<img alt="loader" class="full-image" src="<?php echo base_url("uploads/$image->image");
+    ?>" />
 	    </a>
     </div>
 
-		<?php } ?>
+		<?php
+}
+    ?>
 
   </div>
   <!-- Left and right controls -->
-  <a class="left carousel-control" href="#project<?php echo $row->id;?>" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#project<?php echo $row->id;
+    ?>" role="button" data-slide="prev">
 <!--    <span class="fa fa" aria-hidden="true"></span>-->
    <i class="fa fa-angle-left"></i>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#project<?php echo $row->id;?>" role="button" data-slide="next">
+  <a class="right carousel-control" href="#project<?php echo $row->id;
+    ?>" role="button" data-slide="next">
 <!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
      <i class="fa fa-angle-right"></i>
     <span class="sr-only">Next</span>
@@ -155,7 +177,8 @@
 </div>
     </div>
 
-<?php } ?>
+<?php
+} ?>
 
   </div> <!-- Tab Content End -->
 </div> <!-- Row End -->
@@ -190,7 +213,7 @@
 
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 ">
-							<form action='<?php echo site_url("json/sendContact");?>' class="contactForm" method="post" role="form">
+							<form action='<?php echo site_url('json/sendContact');?>' class="contactForm" method="post" role="form">
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
@@ -213,10 +236,11 @@
 										</div>
 										<div class="text-center">
 											<br/>
-											<button class="btn btn-primary btn-round submitForm" >Send Message
+											<button class="btn btn-primary btn-round submitForm" type="button">Send Message
 											</button>
 											<br>
-											<div id="error">Please fill out all required fields</div>
+											<div class="formmessage error" style="color:white;">Please fill out all required fields.</div>
+											<div  class="formmessage success" style="color:white;">Your form has been submitted.</div>
 										</div>
 									</div>
 								</div>
@@ -294,11 +318,32 @@
 	<!-- ==================================== -->
 <script>
 $(document).ready(function() {
+	$(".formmessage.error").hide();
+	$(".formmessage.success").hide();
 		$(".submitForm").click(function( ) {
-			console.log("click");
-				$.get("<?php echo site_url("json/sendContact"); ?>",{name:$(".contactForm #name"),email:$(".contactForm #email"),message:$(".contactForm #message")},function(data) {
-					console.log(data);
-				});
+			var name = $(".contactForm #name").val();
+			var email  = $(".contactForm #email").val();
+			var message  = $(".contactForm #message").val();
+			console.log(name);
+			console.log(email);
+			console.log(message);
+
+			if(name && email && message && name != "" && email != "" && message != "")
+			{
+				console.log("click");
+					$.getJSON("<?php echo site_url('json/sendContact'); ?>",{name:name,email:email,message:message},function(data) {
+						console.log(data);
+					});
+					$(".formmessage.error").hide();
+					$(".formmessage.success").hide();
+					$(".formmessage.success").show();
+			}
+			else {
+				$(".formmessage.error").hide();
+				$(".formmessage.success").hide();
+				$(".formmessage.error").show();
+			}
+			return false;
 		});
 });
 </script>
