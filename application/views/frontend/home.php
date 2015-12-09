@@ -194,13 +194,13 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Your Name</label>
+											<label>Your Name*</label>
 											<input class="form-control" name="name" id="name" placeholder="" type="text" />
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Your Email</label>
+											<label>Your Email*</label>
 											<input class="form-control" name="email" id="email" placeholder="" type="email" />
 										</div>
 									</div>
@@ -208,7 +208,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										<div class="form-group">
-											<label>Comment</label>
+											<label>Comment*</label>
 											<textarea class="form-control" id="message" name="message" placeholder="" rows="8"></textarea>
 										</div>
 										<div class="text-center">
