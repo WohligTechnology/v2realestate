@@ -2,7 +2,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>v2RealEstate Private Limited</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<meta name="description" content="V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition & leasing.">
+  <meta name="author" content="Wohlig Technology">
+  <meta name="keywords" content="v2, real estate, real, estate, v2 real estate, wohlig, lease, mumbai">
+	<title>V2 Real Estate Pvt. Ltd.</title>
 
 	<!-- ================================ -->
 	<!-- ========== CSS INCLUDES ========== -->
@@ -94,8 +98,8 @@
 	<section class="header nav-fadein-css">
 		<div class="container">
 			<div class="row sticky header">
-				<div class="col-md-6">
-					<a href="">
+				<div class="col-xs-12">
+				<a href="<?php echo site_url('website/index') ?>#homes">
 						<h1><img src="<?php echo base_url('frontassets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>Real Estate Pvt Ltd</h1>
 					</a>
 				</div>
