@@ -44,6 +44,12 @@ class Website extends CI_Controller
         $data['header'] = 'gallery_header';
         $this->load->view('templateFront', $data);
     }
+    public function submitcontactus()
+    {
+      $name = $this->input->get_post('name');
+      $email = $this->input->get_post('email');
+      $message = $this->input->get_post('message');
+    }
 }
 
 /* End of file welcome.php */

@@ -162,4 +162,12 @@ class Json extends CI_Controller
         $data['message'] = $this->detailproject_model->getsingledetailproject($id);
         $this->load->view('json', $data);
     }
+    public function sendContact()
+    {
+        $name = $this->input->get_post('name');
+        $name = $this->input->get_post('email');
+        $name = $this->input->get_post('message');
+        $data['message'] = array( $this->contact_model->create($name,$email,$message) );
+        $this->load->view('json', $data);
+    }
 }

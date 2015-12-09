@@ -105,6 +105,7 @@
 	<section id="portfolio" class="container pad-left">
 		<div class="fullwidth-section kill-bottom-padding">
 			<div class="container">
+				<div class=" abt-width">
 				<div class="row" style="margin-bottom: 40px;">
 					<div class="col-md-8 col-md-offset-2 text-center pdn wdy">
 						<h1 class="weight-800 kill-top-margin uppercase">Projects</h1>
@@ -161,6 +162,7 @@
 				<!-- END ISOTOPE SCRIPT -->
 
 		</div>
+	</div>
         </div>
 	</section>
 	<!-- ======================================== -->
@@ -188,8 +190,7 @@
 
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 ">
-
-							<form action="contact-form.php" method="post" role="form">
+							<form action='<?php echo site_url("json/sendContact");?>' class="contactForm" method="post" role="form">
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
@@ -208,11 +209,11 @@
 									<div class="col-md-12">
 										<div class="form-group">
 											<label>Comment</label>
-											<textarea class="form-control" id="message" placeholder="" rows="8"></textarea>
+											<textarea class="form-control" id="message" name="message" placeholder="" rows="8"></textarea>
 										</div>
 										<div class="text-center">
 											<br/>
-											<button class="btn btn-primary btn-round" type="submit">Send Message
+											<button class="btn btn-primary btn-round submitForm" >Send Message
 											</button>
 											<br>
 											<div id="error">Please fill out all required fields</div>
@@ -291,6 +292,17 @@
 	<!-- ==================================== -->
 	<!-- ========== END JQUERY SCRIPTS ========== -->
 	<!-- ==================================== -->
+<script>
+$(document).ready(function() {
+		$(".submitForm").click(function( ) {
+			console.log("click");
+				$.get("<?php echo site_url("json/sendContact"); ?>",{name:$(".contactForm #name"),email:$(".contactForm #email"),message:$(".contactForm #message")},function(data) {
+					console.log(data);
+				});
+		});
+});
+</script>
+
 </body>
 
 </html>

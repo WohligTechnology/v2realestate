@@ -78,7 +78,6 @@
 												<br> Gallery
 											</a>
 										</li>
-
 					<li>
 						<a class="scrollto text-center" href="#contact">
 							<i class="flaticon-telephone34"></i>

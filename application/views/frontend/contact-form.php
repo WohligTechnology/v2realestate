@@ -1,7 +1,7 @@
 <?php
 // ADD YOUR INFOMATION HERE
 $recipient = 'v2re.contact@gmail.com';
-$successPage = 'index.html';
+$successPage = 'index.php/website';
 
 // NO NEED TO EDIT ANYTHING BELOW THIS LINE =====================//
 

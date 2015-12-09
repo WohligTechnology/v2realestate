@@ -769,4 +769,138 @@ $data['project']=$this->projectimages_model->getprojectdropdown();
         $data['redirect'] = 'site/viewdetailproject';
         $this->load->view('redirect', $data);
     }
+
+
+
+
+        public function viewcontact()
+        {
+            $access = array('1');
+            $this->checkaccess($access);
+            $data['page'] = 'viewcontact';
+            $data['base_url'] = site_url('site/viewcontactjson');
+            $data['title'] = 'View Contact';
+            $this->load->view('template', $data);
+        }
+        public function viewcontactjson()
+        {
+            $elements = array();
+            $elements[0] = new stdClass();
+            $elements[0]->field = '`realestate_contact`.`id`';
+            $elements[0]->sort = '1';
+            $elements[0]->header = 'ID';
+            $elements[0]->alias = 'id';
+            $elements[1] = new stdClass();
+            $elements[1]->field = '`realestate_contact`.`message`';
+            $elements[1]->sort = '1';
+            $elements[1]->header = 'Message';
+            $elements[1]->alias = 'message';
+            $elements[2] = new stdClass();
+            $elements[2]->field = '`realestate_contact`.`email`';
+            $elements[2]->sort = '1';
+            $elements[2]->header = 'Email';
+            $elements[2]->alias = 'email';
+            $elements[3] = new stdClass();
+            $elements[3]->field = '`realestate_contact`.`name`';
+            $elements[3]->sort = '1';
+            $elements[3]->header = 'Name';
+            $elements[3]->alias = 'name';
+            $search = $this->input->get_post('search');
+            $pageno = $this->input->get_post('pageno');
+            $orderby = $this->input->get_post('orderby');
+            $orderorder = $this->input->get_post('orderorder');
+            $maxrow = $this->input->get_post('maxrow');
+            if ($maxrow == '') {
+                $maxrow = 20;
+            }
+            if ($orderby == '') {
+                $orderby = 'id';
+                $orderorder = 'ASC';
+            }
+            $data['message'] = $this->chintantable->query($pageno, $maxrow, $orderby, $orderorder, $search, $elements, 'FROM `realestate_contact`');
+            $this->load->view('json', $data);
+        }
+
+
+        public function createcontact()
+        {
+            $access = array('1');
+            $this->checkaccess($access);
+            $data['page'] = 'createcontact';
+            $data['title'] = 'Create Contact';
+            $this->load->view('template', $data);
+        }
+        public function createcontactsubmit()
+        {
+            $access = array('1');
+            $this->checkaccess($access);
+              $this->form_validation->set_rules('id', 'Id', 'trim');
+            $this->form_validation->set_rules('name', 'Name', 'trim');
+            $this->form_validation->set_rules('email', 'Email', 'trim');
+            $this->form_validation->set_rules('message', 'Message', 'trim');
+            if ($this->form_validation->run() == false) {
+                $data['alerterror'] = validation_errors();
+                $data['page'] = 'createcontact';
+                $data['title'] = 'Create Contact';
+                $this->load->view('template', $data);
+            } else {
+                $name = $this->input->get_post('name');
+                $email = $this->input->get_post('email');
+                $message = $this->input->get_post('message');
+                if ($this->contact_model->create($name, $email, $message) == 0) {
+                    $data['alerterror'] = 'New project could not be created.';
+                } else {
+                    $data['alertsuccess'] = 'project created Successfully.';
+                }
+                $data['redirect'] = 'site/viewcontact';
+                $this->load->view('redirect', $data);
+            }
+        }
+        public function editcontact()
+        {
+            $access = array('1');
+            $this->checkaccess($access);
+            $data['page'] = 'editcontact';
+            $data['page2'] = 'block/imageblock';
+            $data[ 'before1' ] = $this->input->get('id');
+            $data['title'] = 'Edit Contact';
+            $data['before'] = $this->contact_model->beforeedit($this->input->get('id'));
+            $this->load->view('templatewith2', $data);
+        }
+        public function editcontactsubmit()
+        {
+            $access = array('1');
+            $this->checkaccess($access);
+            $this->form_validation->set_rules('id', 'ID', 'trim');
+            $this->form_validation->set_rules('name', 'Name', 'trim');
+            $this->form_validation->set_rules('email', 'Email', 'trim');
+            $this->form_validation->set_rules('message', 'Message', 'trim');
+            if ($this->form_validation->run() == false) {
+                $data['alerterror'] = validation_errors();
+                $data['page'] = 'editcontact';
+                $data['title'] = 'Edit Contact';
+                $data['before'] = $this->contact_model->beforeedit($this->input->get('id'));
+                $this->load->view('template', $data);
+            } else {
+                $id = $this->input->get_post('id');
+                $name = $this->input->get_post('name');
+                $email = $this->input->get_post('email');
+                $message = $this->input->get_post('message');
+                if ($this->contact_model->edit($id, $name, $email, $message) == 0) {
+                    $data['alerterror'] = 'New project could not be Updated.';
+                } else {
+                    $data['alertsuccess'] = 'project Updated Successfully.';
+                }
+                $data['redirect'] = 'site/viewcontact';
+                $this->load->view('redirect', $data);
+            }
+        }
+        public function deletecontact()
+        {
+            $access = array('1');
+            $this->checkaccess($access);
+            $this->contact_model->delete($this->input->get('id'));
+            $data['redirect'] = 'site/viewcontact';
+            $this->load->view('redirect', $data);
+        }
 }
