@@ -2,7 +2,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>v2RealEstate</title>
+	<title>v2RealEstate Private Limited</title>
 
 	<!-- ================================ -->
 	<!-- ========== CSS INCLUDES ========== -->
@@ -94,7 +94,7 @@
 	<section class="header nav-fadein-css">
 		<div class="container">
 			<div class="row sticky header">
-				<div class="col-xs-12">
+				<div class="col-md-6">
 					<a href="">
 						<h1><img src="<?php echo base_url('frontassets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>Real Estate Pvt Ltd</h1>
 					</a>

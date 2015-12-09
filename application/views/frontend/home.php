@@ -239,8 +239,8 @@
 											<button class="btn btn-primary btn-round submitForm" type="button">Send Message
 											</button>
 											<br>
-											<div class="formmessage error" style="color:white;">Please fill out all required fields.</div>
-											<div  class="formmessage success" style="color:white;">Your form has been submitted.</div>
+											<div class="formmessage error" style="color:#CE0000;font-size: 14px;">Please fill out all required fields.</div>
+											<div  class="formmessage success" style="color:#D4AE70;font-size: 14px;">Your form has been submitted.</div>
 										</div>
 									</div>
 								</div>

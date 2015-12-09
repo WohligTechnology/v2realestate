@@ -1,6 +1,7 @@
 <section id="portfolio" class="container pad-left">
   <div class="fullwidth-section kill-bottom-padding">
     <div class="container">
+      <div class="abt-width">
       <div class="row" style="margin-bottom: 40px;">
         <div class="col-md-8 col-md-offset-2 text-center pdn wdy">
           <h1 class="weight-800 kill-top-margin uppercase">Projects</h1>
@@ -34,5 +35,6 @@
 				</div>
 			</div>
 		</div>
+  </div>
 	</div>
 </section>

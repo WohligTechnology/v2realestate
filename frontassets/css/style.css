@@ -169,9 +169,20 @@ section#portfolio {
 }
 .margin-tp {
   display: none;
-  margin-top: 143px;
+  margin-top: 140px;
 }
 @media screen and (max-width: 767px) {
+  .about-cont {
+    padding: 0 20px;
+  }
+  section#portfolio {
+    padding: 0px 20px;
+    padding-bottom: 50px;
+}
+  .copy.nomg.pull-right {
+    float: none!important;
+    margin: 10px 0 20px 0;
+  }
   #blog-fullwidth .post-img-lg {
     display: none;
   }
@@ -325,7 +336,7 @@ section#portfolio {
     position: fixed;
     min-height: 20px;
     width: 100%;
-    top: 74px;
+    top: 70px;
     padding: 0;
   }
   .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.dropdown > a:focus {
@@ -446,11 +457,11 @@ span.bold {
 }
 @media screen and (max-width: 766px) {
   .carousel {
-    height: 200px;
+    height: 150px;
   }
 }
 @media screen and (max-width: 320px) {
   .carousel {
-    height: 120px;
+    height: 95px!important;
   }
 }

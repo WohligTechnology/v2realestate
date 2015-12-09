@@ -20,7 +20,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="row">
+		<div class="row about-cont">
 			<div class="col-md-12 pad-left">
 				<h2><?php echo ($project->name);?></h2>
 								<?php echo ($project->desc);?>
