@@ -5,7 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
 	<meta name="description" content="V2 REAL ESTATE PVT. LTD. is one of the fastest-growing Mumbai-based Real Estate Company which is conducting activities of real estate acquisition & leasing.">
   <meta name="author" content="Wohlig Technology">
-  <meta name="keywords" content="v2, real estate, real, estate, v2 real estate, wohlig, lease, mumbai">
+	<meta name="keywords" content="v2, real estate, real, estate, v2 real estate, wohlig, lease, mumbai,v2 real estate pvt ltd,v2 realestate pvt ltd,v2realestate pvt ltd
+,v2 real estate,v2, realestate">
 	<title>V2 Real Estate Pvt. Ltd.</title>
 
 	<!-- ================================ -->
@@ -100,10 +101,21 @@
 			<div class="row sticky header">
 				<div class="col-xs-12">
 				<a href="<?php echo site_url('website/index') ?>#homes">
-						<h1><img src="<?php echo base_url('frontassets/img/logo.png');?>" class="logo">v<span class="logo2">2</span>Real Estate Pvt Ltd</h1>
+						<h1><img src="<?php echo base_url('frontassets/img/logo.png');?>" class="logo">
+							v<span class="logo2">2</span>Real Estate Pvt. Ltd.</h1>
 					</a>
 				</div>
 			</div>
 		</div>
 	</section>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71291487-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
