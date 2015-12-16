@@ -13,7 +13,7 @@ class contact_model extends CI_Model
       
        $todaysdate=date("Y-m-d");
      
-    
+    if($id){
         /////////////////////////EMAIL
 //        $senderemail="v2re.contact@gmail.com";
         $senderemail="pooja.wohlig@gmail.com";
@@ -43,6 +43,7 @@ class contact_model extends CI_Model
             return  0;
         } else {
             return  $id;
+        }
         }
     }
     public function beforeedit($id)
