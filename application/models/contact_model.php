@@ -18,7 +18,7 @@ class contact_model extends CI_Model
 //        $senderemail="v2re.contact@gmail.com";
         $senderemail="pooja.wohlig@gmail.com";
         $this->load->library('email');
-        $this->email->from('vigwohlig@gmail.com', 'V2 REAL ESTATE PRIVATE LIMITED ');
+        $this->email->from('v2re.contact@gmail.com', 'V2 REAL ESTATE PRIVATE LIMITED ');
         $this->email->to($senderemail);
         $this->email->subject('Enquiry for V2 REAL ESTATE PRIVATE LIMITED');
         $message = "<html>
