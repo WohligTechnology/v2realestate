@@ -7,8 +7,8 @@ class contact_model extends CI_Model
 {
     public function create($name, $email, $message)
     {
-//        $toemail = "v2re.contact@gmail.com";
-        $toemail = "pooja.wohlig@gmail.com";
+        $toemail = "v2re.contact@gmail.com";
+//        $toemail = "pooja.wohlig@gmail.com";
         $message2 = "<html>
       <p><span style='font-size:14px;font-weight:bold;padding:10px 0;'>Name: </span>
       <span>$name</span>
