@@ -12,26 +12,26 @@ class contact_model extends CI_Model
         $message2 = "<html>
       <p><span style='font-size:14px;font-weight:bold;padding:10px 0;'>Name: </span>
       <span>$name</span>
-      </p> 
+      </p>
       <p>
       <span style='font-size:14px;font-weight:bold;padding:10px 0;'>Email: </span>
       <span>$email</span>
-      </p> 
+      </p>
       <p>
       <span style='font-size:14px;font-weight:bold;padding:10px 0;'>Message: </span>
       <span>$message</span>
       </p>
 </html>";
-        
+
         $message3 = "Name: $name
         Email: $email
         Message: $message
         ";
-        
+
         $data = array('name' => $name,'email' => $email,'message'=> $message);
         $query = $this->db->insert('realestate_contact', $data);
         $id = $this->db->insert_id();
-      
+
        $todaysdate=date("Y-m-d");
       try {
             $mandrill = new Mandrill('_7wCuzojxAi47Odc0qb3xg');
@@ -59,7 +59,6 @@ class contact_model extends CI_Model
         'url_strip_qs' => null,
         'preserve_recipients' => null,
         'view_content_link' => null,
-        'bcc_address' => 'tushar@wohlig.com',
         'tracking_domain' => null,
         'signing_domain' => null,
         'return_path_domain' => null,
@@ -105,7 +104,7 @@ class contact_model extends CI_Model
     // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
     throw $e;
         }
-    
+
 //    if($id){
 //        /////////////////////////EMAIL
 ////        $senderemail="v2re.contact@gmail.com";
@@ -117,11 +116,11 @@ class contact_model extends CI_Model
 //        $message = "<html>
 //      <p><span style='font-size:14px;font-weight:bold;padding:10px 0;'>Name: </span>
 //      <span>$name</span>
-//      </p> 
+//      </p>
 //      <p>
 //      <span style='font-size:14px;font-weight:bold;padding:10px 0;'>Email: </span>
 //      <span>$email</span>
-//      </p> 
+//      </p>
 //      <p>
 //      <span style='font-size:14px;font-weight:bold;padding:10px 0;'>Message: </span>
 //      <span>$message</span>
@@ -138,7 +137,7 @@ class contact_model extends CI_Model
 //            return  $id;
 //        }
 //}
-        
+
     }
     public function beforeedit($id)
     {
