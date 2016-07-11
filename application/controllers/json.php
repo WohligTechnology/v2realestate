@@ -167,80 +167,94 @@ class Json extends CI_Controller
         $name = $this->input->get_post('name');
         $email = $this->input->get_post('email');
         $message = $this->input->get_post('message');
+
+          $message1 = "<html><body><div id=':1fn' class='a3s adM' style='overflow: hidden;'>
+          <p style='color:#000;font-family:Roboto;font-size:14px'>Name : $name <br/>
+        Email : $email <br/>
+        Message : $message
+          </p>
+
+        </div></body></html>";
+        if(!empty($email))
+        {
+          // echo"in mail".$email;
+        // $viewcontent = $this->load->view('emailers/forgotpassword', $data, true);
+        $this->email_model->emailer($message1,'Contact Form Submission',$email,$username);
+        }
         $data['message'] = array($this->contact_model->create($name, $email, $message));
         $this->load->view('json', $data);
     }
-    public function email()
-    {
-        try {
-            $mandrill = new Mandrill('_7wCuzojxAi47Odc0qb3xg');
-            $message = array(
-        'html' => '<p>This is Sparta</p>',
-        'text' => 'This is Sparta',
-        'subject' => 'Testing Email',
-        'from_email' => 'info@v2realestate.co',
-        'from_name' => 'V2 Real Estate',
-        'to' => array(
-            array(
-                'email' => 'chintan@wohlig.com',
-                'name' => 'Chintan Shah',
-                'type' => 'to',
-            ),
-        ),
-        'headers' => array('Reply-To' => 'info@wohlig.com'),
-        'important' => false,
-        'track_opens' => null,
-        'track_clicks' => null,
-        'auto_text' => null,
-        'auto_html' => null,
-        'inline_css' => null,
-        'url_strip_qs' => null,
-        'preserve_recipients' => null,
-        'view_content_link' => null,
-        'tracking_domain' => null,
-        'signing_domain' => null,
-        'return_path_domain' => null,
-        'merge' => true,
-        'merge_language' => 'mailchimp',
-        'global_merge_vars' => array(
-            array(
-                'name' => 'merge1',
-                'content' => 'merge1 content',
-            ),
-        ),
-        'merge_vars' => array(
-            array(
-                'rcpt' => 'recipient.email@example.com',
-                'vars' => array(
-                    array(
-                        'name' => 'merge2',
-                        'content' => 'merge2 content',
-                    ),
-                ),
-            ),
-        ),
-    );
-            $async = false;
-            $result = $mandrill->messages->send($message, $async, $ip_pool);
-            print_r($result);
-    /*
-    Array
-    (
-        [0] => Array
-            (
-                [email] => recipient.email@example.com
-                [status] => sent
-                [reject_reason] => hard-bounce
-                [_id] => abc123abc123abc123abc123abc123
-            )
-
-    )
-    */
-        } catch (Mandrill_Error $e) {
-            // Mandrill errors are thrown as exceptions
-    echo 'A mandrill error occurred: '.get_class($e).' - '.$e->getMessage();
-    // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
-    throw $e;
-        }
-    }
+    // public function email()
+    // {
+    //     try {
+    //         $mandrill = new Mandrill('_7wCuzojxAi47Odc0qb3xg');
+    //         $message = array(
+    //     'html' => '<p>This is Sparta</p>',
+    //     'text' => 'This is Sparta',
+    //     'subject' => 'Testing Email',
+    //     'from_email' => 'info@v2realestate.co',
+    //     'from_name' => 'V2 Real Estate',
+    //     'to' => array(
+    //         array(
+    //             'email' => 'chintan@wohlig.com',
+    //             'name' => 'Chintan Shah',
+    //             'type' => 'to',
+    //         ),
+    //     ),
+    //     'headers' => array('Reply-To' => 'info@wohlig.com'),
+    //     'important' => false,
+    //     'track_opens' => null,
+    //     'track_clicks' => null,
+    //     'auto_text' => null,
+    //     'auto_html' => null,
+    //     'inline_css' => null,
+    //     'url_strip_qs' => null,
+    //     'preserve_recipients' => null,
+    //     'view_content_link' => null,
+    //     'tracking_domain' => null,
+    //     'signing_domain' => null,
+    //     'return_path_domain' => null,
+    //     'merge' => true,
+    //     'merge_language' => 'mailchimp',
+    //     'global_merge_vars' => array(
+    //         array(
+    //             'name' => 'merge1',
+    //             'content' => 'merge1 content',
+    //         ),
+    //     ),
+    //     'merge_vars' => array(
+    //         array(
+    //             'rcpt' => 'recipient.email@example.com',
+    //             'vars' => array(
+    //                 array(
+    //                     'name' => 'merge2',
+    //                     'content' => 'merge2 content',
+    //                 ),
+    //             ),
+    //         ),
+    //     ),
+    // );
+    //         $async = false;
+    //         $result = $mandrill->messages->send($message, $async, $ip_pool);
+    //         print_r($result);
+    // /*
+    // Array
+    // (
+    //     [0] => Array
+    //         (
+    //             [email] => recipient.email@example.com
+    //             [status] => sent
+    //             [reject_reason] => hard-bounce
+    //             [_id] => abc123abc123abc123abc123abc123
+    //         )
+    //
+    // )
+    // */
+    //     } catch (Mandrill_Error $e) {
+    //         // Mandrill errors are thrown as exceptions
+    // echo 'A mandrill error occurred: '.get_class($e).' - '.$e->getMessage();
+    // // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
+    // throw $e;
+    //     }
+    // }
 }

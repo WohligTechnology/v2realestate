@@ -18,7 +18,7 @@ require_once 'Mandrill/Metadata.php';
 require_once 'Mandrill/Exceptions.php';
 
 class Mandrill {
-
+    
     public $apikey;
     public $ch;
     public $root = 'https://mandrillapp.com/api/1.0';
@@ -56,13 +56,12 @@ class Mandrill {
         "Unknown_MetadataField" => "Mandrill_Unknown_MetadataField"
     );
 
-    public function __construct($apikey="_7wCuzojxAi47Odc0qb3xg") {
-        if(!$apikey) $apikey = getenv('MANDRILL_APIKEY');
-        if(!$apikey) $apikey = $this->readConfigs();
-        if(!$apikey) throw new Mandrill_Error('You must provide a Mandrill API key');
-        $this->apikey = $apikey;
+    public function __construct() {
+        $this->apikey = "RFvI2aykFD8b74slgl8fuQ";
 
         $this->ch = curl_init();
+        curl_setopt($this->ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, 0);
         curl_setopt($this->ch, CURLOPT_USERAGENT, 'Mandrill-PHP/1.0.55');
         curl_setopt($this->ch, CURLOPT_POST, true);
         curl_setopt($this->ch, CURLOPT_FOLLOWLOCATION, true);
@@ -127,7 +126,7 @@ class Mandrill {
         }
         $result = json_decode($response_body, true);
         if($result === null) throw new Mandrill_Error('We were unable to decode the JSON response from the Mandrill API: ' . $response_body);
-
+        
         if(floor($info['http_code'] / 100) >= 4) {
             throw $this->castError($result);
         }
@@ -157,3 +156,5 @@ class Mandrill {
         if($this->debug) error_log($msg);
     }
 }
+
+
