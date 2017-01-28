@@ -92,7 +92,7 @@ section#portfolio {
 /*about*/
 
 .abt-width {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
 }
 .navg {
@@ -173,12 +173,15 @@ section#portfolio {
 }
 @media screen and (max-width: 767px) {
   .about-cont {
-    padding: 0 20px;
+    padding: 0 10px;
+  }
+  #blog-fullwidth h2 {
+    font-size:24px;
   }
   section#portfolio {
     padding: 0px 20px;
     padding-bottom: 50px;
-}
+  }
   .copy.nomg.pull-right {
     float: none!important;
     margin: 10px 0 20px 0;
@@ -334,11 +337,17 @@ section#portfolio {
   }
   nav.navbar.navbar-default.navbar-fixed-top.nav-fadein-css {
     position: fixed;
-    min-height: 20px;
+    height:0px;
+    min-height:0px;
     width: 100%;
     top: 70px;
     padding: 0;
   }
+.navbar-toggle {
+    position: absolute;
+    top: -70px;
+    right: 0;
+}
   .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.dropdown > a:focus {
     padding-right: 15px;
     padding-left: 15px;
@@ -383,7 +392,7 @@ section#portfolio {
     text-align: center;
   }
   h1, .h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 span.bold {
