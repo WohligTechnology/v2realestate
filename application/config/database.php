@@ -55,9 +55,9 @@ $myserver=$_SERVER['SERVER_NAME'];
 if($myserver!="localhost")
 {
     $db['default']['hostname'] = 'localhost';
-    $db['default']['username'] = 'wohligco_real';
-    $db['default']['password'] = 'chintan123';
-    $db['default']['database'] = 'wohligco_realestate';
+    $db['default']['username'] = 'v2real_estate';
+    $db['default']['password'] = 'wohlig123';
+    $db['default']['database'] = 'v2real_estate';
     $db['default']['dbdriver'] = 'mysql';
     $db['default']['dbprefix'] = '';
     $db['default']['pconnect'] = TRUE;
