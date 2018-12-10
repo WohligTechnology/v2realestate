@@ -39,7 +39,7 @@
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/owl.carousel.min.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/animation-engine.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('frontassets/js/astonish.js');?>"></script>
-	    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 			    <script type="text/javascript" src="<?php echo base_url('frontassets/js/google.map-settings.js');?>"></script>
 </head>
 
