@@ -55,10 +55,10 @@ $myserver=$_SERVER['SERVER_NAME'];
 if($myserver!="localhost")
 {
     $db['default']['hostname'] = 'localhost';
-    $db['default']['username'] = 'v2real_estate';
-    $db['default']['password'] = 'wohlig123';
-    $db['default']['database'] = 'v2real_estate';
-    $db['default']['dbdriver'] = 'mysql';
+    $db['default']['username'] = 'newuser';
+    $db['default']['password'] = 'password';
+    $db['default']['database'] = 'v2realestate';
+    $db['default']['dbdriver'] = 'mysqli';
     $db['default']['dbprefix'] = '';
     $db['default']['pconnect'] = TRUE;
     $db['default']['db_debug'] = TRUE;
