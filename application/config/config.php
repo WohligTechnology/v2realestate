@@ -35,7 +35,7 @@ $myserver=$_SERVER['SERVER_NAME'];
 //$config['username']=$myconfig->username;
 //$config['hostname']=$myconfig->hostname;
 //$config['password']=$myconfig->password;
-$config['base_url']	= '';
+$config['base_url']	= 'https://v2realestate.co';
 
 /*
 |--------------------------------------------------------------------------
